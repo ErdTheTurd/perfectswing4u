@@ -3,306 +3,237 @@
 
   var STORAGE_KEY = "ps4u-lang";
 
-  var strings = {
+  var dict = {
     en: {
       skip: "Skip to content",
       menu: "Menu",
-      navMethod: "The bay",
-      navPricing: "Prices",
+      navAbout: "About",
+      navPricing: "Lessons",
       navCoaches: "Coaches",
+      navReviews: "Reviews",
       navVisit: "Visit",
       ctaBook: "Book a lesson",
-      ctaVisit: "Get directions",
+      ctaMap: "Directions",
+      heroTitle: "Indoor coaching on N Mesa.",
       heroLead:
-        "Come in off N Mesa. We cool the room, put a number on the ball, and work one change at a time until it holds up outside.",
-      heroMeta: "5864 N Mesa St, Suite A · Mon–Fri 10:00–19:00 · Closed weekends",
-      heatKicker: "El Paso · indoor bay",
-      heatTitle: "Heat stays outside. Practice does not wait on the wind.",
-      heatCopy:
-        "This is a climate-controlled bay on N Mesa at Crown Point. You get a full hour with a coach — no tee time, no dust in your eyes. If you do not own clubs yet, we have some ready.",
-      methodKicker: "Fig. 01 — instruments",
-      methodTitle: "What we look at in a session",
-      methodLead:
-        "Better to show the shot than talk around it. Three tools. Plain labels.",
-      specAName: "FlightScope",
-      specAMeasure: "ball speed · launch · spin · carry",
-      specABody:
-        "Every ball leaves a reading. The coach picks the one or two numbers that explain the miss — then changes the swing to move those numbers, not the other way around.",
-      specBName: "Multi-angle video",
-      specBMeasure: "face-on · down-the-line",
-      specBBody:
-        "Player and coach watch the same angles. Feel lies; the camera does not. Pause the clip, name the move, try it again on the mat.",
-      specCName: "Capto putting",
-      specCMeasure: "path · face · tempo · 30 min",
-      specCBody:
-        "A sensor on the putter tracks the stroke. Yaser is Capto certified — so the fix on the green is measured the same way a driver is measured.",
-      illustTag: "Illustration",
-      fsTitle: "Fig. 02 — FlightScope readout",
-      fsNote: "Illustration · example values",
-      fsCaption:
-        " — sample numbers only; each lesson starts from the player’s actual baseline.",
-      captoTitle: "Fig. 03 — Capto putter path",
-      captoNote: "Illustration · example stroke",
-      captoCaption:
-        " — example stroke geometry for teaching; live Capto values come from the sensor on the putter.",
-      phLessonId: "PLATE 01",
-      phLessonTitle: "[PLACEHOLDER: photo of lesson in progress]",
-      phLessonDesc:
-        "Hard crop, bay light, FlightScope screen soft in frame. Catalogue B&W.",
-      whoKicker: "Who walks in",
-      whoTitle:
-        "Beginners through competitive. Juniors, high school, women, military, veterans.",
-      whoLead:
-        "Walk in when a coach is free. Call ahead if you can — the bay stays honest.",
-      who1t: "First time holding a club",
-      who1d: "Grip, setup, a swing you can repeat. No audience on a public range.",
-      who2t: "Juniors & U.S. Kids families",
-      who2d:
-        "Age-right coaching. Yaser directs the El Paso U.S. Kids Golf tour — the pathway stays clear for competitive kids.",
-      who3t: "High school players",
-      who3d: "Ball-striking you can trust under a school-week schedule.",
-      who4t: "Women & service members",
-      who4d: "A quiet bay, direct feedback, no wasted half hour.",
-      priceKicker: "Catalogue",
-      priceTitle: "Prices. No package fine print.",
+        "Climate-controlled bay. FlightScope numbers. Multi-angle video. Capto putting. Lessons and fittings with Yaser Garcia and Memo Vega — for beginners through competitive players.",
+      heroMeta: "5864 N Mesa St, Suite A · Mon–Fri 10am–7pm · Closed weekends",
+      aboutTitle: "El Paso heat stays outside. Your hour stays on the mat.",
+      aboutCopy:
+        "Perfect Swing 4U is an indoor academy on N Mesa at Crown Point, next to Another Broken Egg Cafe. Full-hour lessons, club fitting, and a pro shop — no tee times, no weather delays. Walk-ins welcome when a coach is free. Clubs on hand if you do not have a set.",
+      processTitle: "How a lesson runs",
+      processSub: "Book on Square. Show up. Leave with one clear thing to practice.",
+      step1t: "Reserve the hour",
+      step1d:
+        "Book online at Square, call (915) 449-3613, or walk in if a coach is free. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
+      step2t: "Measure the ball",
+      step2d:
+        "FlightScope tracks ball speed, launch, spin, and carry. Multi-angle video shows face-on and down-the-line. Capto putting uses a sensor on the putter for path, face, and tempo.",
+      step3t: "Take the change outside",
+      step3d:
+        "Your coach picks the one or two adjustments that matter for your swing — not a long list. Drills you can repeat at the range or on the course.",
+      priceTitle: "Lessons & fittings",
+      priceSub: "One coach. Full session. Prices as listed.",
       pPrivate: "Private Lesson",
-      pPrivateDesc: "FlightScope + video",
+      pPrivateDesc: "60 min · FlightScope & video",
       pJunior: "Junior Lesson",
-      pJuniorDesc: "Structured for young golfers",
+      pJuniorDesc: "60 min · young golfers",
       pHS: "High School Lesson",
-      pHSDesc: "Competitive prep",
+      pHSDesc: "60 min · competitive prep",
       pPut: "Putting Analysis",
-      pPutDesc: "Capto sensor",
+      pPutDesc: "30 min · Capto sensor",
       pDriver: "Driver Fitting",
       pDriverDesc: "Head, shaft, loft to your numbers",
       pIron: "Iron Fitting",
       pIronDesc: "Flex, length, lie, grip",
       pBag: "Full Bag Fitting",
       pBagDesc: "Driver through wedges",
-      session: "session",
       pBundle: "Swing + Putting Bundle",
       pBundleDesc:
-        "Three 60-minute swing lessons and two 30-minute Capto putting sessions. Five visits. One plan.",
+        "Three 60-minute swing lessons plus two 30-minute Capto putting sessions — five visits, one plan.",
       policy:
-        "Reschedule with 24 hours’ notice. No-shows forfeit 50% of the lesson fee. Booking is through Square only.",
-      coachKicker: "Staff",
-      coachTitle: "Two coaches. One bay.",
+        "Reschedule with 24 hours’ notice. No-shows forfeit 50% of the lesson fee. Booking through Square only.",
+      techTitle: "The tools on the bay",
+      techSub: "Explained in plain words — so you know what you are looking at.",
+      tech1t: "FlightScope",
+      tech1d:
+        "Launch monitor readings for every shot: ball speed, launch angle, spin, and carry. Your coach uses the numbers that explain your miss.",
+      tech2t: "Multi-angle video",
+      tech2d:
+        "Face-on and down-the-line views so you see what the coach sees. Pause, name the move, hit again.",
+      tech3t: "Capto putting",
+      tech3d:
+        "A sensor on the putter tracks path, face angle, and tempo. Yaser is Capto Putting certified.",
+      coachTitle: "The coaches",
+      coachSub:
+        "Two instructors. One bay. Beginners, juniors, high school players, women, military, and veterans.",
       yaserRole: "Head coach & founder",
       yaserTour: "El Paso tour director for U.S. Kids Golf.",
-      yaserBio:
-        "Yaser’s methodology covers all three pillars: physical conditioning, mental preparation, and technical skills training working together as one system. With 13+ years playing competitive golf, he dedicated his career to sharing the game — bringing swing mechanics, Capto putting mastery, TPI fitness, and club fitting expertise under one roof.",
       memoRole: "Instructor & club fitting specialist",
       memoCred: "Club fitting specialist",
-      memoBio:
-        "Memo’s teaching philosophy is rooted in the mental side of the game. He uses communication and visualization techniques to make improvement stick between sessions, not just on the lesson mat. His patient, step-by-step approach has produced measurable results for everyone from beginners to competitive high school athletes.",
-      quoteKicker: "From players",
-      quoteTitle: "What they wrote",
-      quoteLead:
-        "Published on perfectswing4u.org — printed here without edits.",
-      shopKicker: "Pro shop",
-      shopTitle: "Fit here. Buy here.",
-      shopLead: "Brands on the wall — text only:",
-      phBayId: "PLATE 02",
-      phBayTitle: "[PLACEHOLDER: photo of indoor bay]",
-      phBayDesc: "Climate-controlled bay and fitting area. Catalogue B&W plate.",
-      visitKicker: "Location",
-      visitTitle: "On N Mesa at Crown Point",
-      visitLead:
-        "Next to Another Broken Egg Cafe. Walk-ins welcome when a coach is free.",
-      mapTitle: "Fig. 04 — N Mesa at Crown Point",
-      mapNote: "Line map · not to survey scale",
-      mapCaption:
-        "Hand-set location diagram for Crown Point. Use Google Maps for turn-by-turn.",
+      brandsTitle: "In the pro shop",
+      brandsSub: "Brands carried — text only:",
+      reviewsTitle: "What golfers wrote",
+      reviewsSub: "From perfectswing4u.org — printed here without edits.",
+      visitTitle: "Visit the bay",
+      visitSub: "On N Mesa at Crown Point, next to Another Broken Egg Cafe.",
       addrLabel: "Address",
       directions: "Open in Google Maps",
-      contactLabel: "Contact",
       hoursLabel: "Hours",
       monFri: "Mon–Fri",
       weekend: "Sat–Sun",
       closed: "Closed",
+      phBayNote: "[PLACEHOLDER: bay photo] — exterior and bay shots pending.",
+      contactLabel: "Contact",
       bookLabel: "Booking",
       bookBody:
         "Square only. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
-      phFrontId: "PLATE 03",
-      phFrontTitle: "[PLACEHOLDER: photo of storefront]",
-      phFrontDesc: "Exterior on N Mesa at Crown Point. Catalogue B&W plate.",
-      ctaTitle: "If you are ready, book the hour.",
+      ctaTitle: "Ready when you are.",
       ctaCopy:
-        "Square online, call the bay, or walk in when a coach is free. Bring clubs — or use the loaners.",
+        "Book on Square, call the bay, or walk in if a coach is free. Bring clubs — or use ours.",
       footerTag: "Indoor golf academy · El Paso, TX",
       follow: "Follow",
       rights: "© Perfect Swing 4U Golf Academy",
-      draftNote: "Draft D · swiss studio",
+      draftNote: "Draft F · refined original",
     },
     es: {
       skip: "Saltar al contenido",
       menu: "Menú",
-      navMethod: "La bahía",
-      navPricing: "Precios",
-      navCoaches: "Entrenadores",
-      navVisit: "Visítanos",
+      navAbout: "Acerca",
+      navPricing: "Clases",
+      navCoaches: "Coaches",
+      navReviews: "Reseñas",
+      navVisit: "Visita",
       ctaBook: "Reservar clase",
-      ctaVisit: "Cómo llegar",
+      ctaMap: "Cómo llegar",
+      heroTitle: "Entrenamiento indoor en N Mesa.",
       heroLead:
-        "Entra desde N Mesa. Enfriamos el cuarto, le ponemos número a la bola y trabajamos un cambio a la vez hasta que aguante afuera.",
-      heroMeta:
-        "5864 N Mesa St, Suite A · Lun–Vie 10:00–19:00 · Cerrado fines de semana",
-      heatKicker: "El Paso · bahía bajo techo",
-      heatTitle: "El calor se queda afuera. La práctica no espera al viento.",
-      heatCopy:
-        "Esta es una bahía con clima controlado en N Mesa en Crown Point. Tienes una hora completa con un entrenador — sin horario de tee, sin polvo en los ojos. Si aún no tienes palos, hay algunos listos.",
-      methodKicker: "Fig. 01 — instrumentos",
-      methodTitle: "Qué miramos en una sesión",
-      methodLead:
-        "Mejor mostrar el golpe que hablar alrededor. Tres herramientas. Etiquetas claras.",
-      specAName: "FlightScope",
-      specAMeasure: "velocidad · lanzamiento · spin · carry",
-      specABody:
-        "Cada bola deja una lectura. El entrenador elige uno o dos números que explican el error — y cambia el swing para mover esos números, no al revés.",
-      specBName: "Video en varios ángulos",
-      specBMeasure: "de frente · línea de tiro",
-      specBBody:
-        "Jugador y entrenador ven los mismos ángulos. La sensación miente; la cámara no. Se pausa el clip, se nombra el movimiento y se intenta otra vez en el tapete.",
-      specCName: "Putting con Capto",
-      specCMeasure: "trayectoria · cara · tempo · 30 min",
-      specCBody:
-        "Un sensor en el putter mide el stroke. Yaser está certificado en Capto — el arreglo en el green se mide igual que un driver.",
-      illustTag: "Ilustración",
-      fsTitle: "Fig. 02 — lectura FlightScope",
-      fsNote: "Ilustración · valores de ejemplo",
-      fsCaption:
-        " — solo números de muestra; cada clase parte de la línea base real del jugador.",
-      captoTitle: "Fig. 03 — trayectoria Capto",
-      captoNote: "Ilustración · golpe de ejemplo",
-      captoCaption:
-        " — geometría de ejemplo para enseñar; los valores reales de Capto vienen del sensor en el putter.",
-      phLessonId: "PLACA 01",
-      phLessonTitle: "[PLACEHOLDER: foto de una clase en progreso]",
-      phLessonDesc:
-        "Recorte duro, luz de bahía, pantalla FlightScope suave. Placa B&N de catálogo.",
-      whoKicker: "Quién entra",
-      whoTitle:
-        "De principiantes a competitivos. Juniors, preparatoria, mujeres, militares, veteranos.",
-      whoLead:
-        "Entra cuando haya entrenador libre. Llama antes si puedes — la bahía se mantiene en orden.",
-      who1t: "Primera vez con un palo",
-      who1d:
-        "Agarre, postura, un swing que puedas repetir. Sin público de práctica abierta.",
-      who2t: "Juniors y familias U.S. Kids",
-      who2d:
-        "Entrenamiento acorde a la edad. Yaser dirige el tour de El Paso de U.S. Kids Golf — el camino queda claro para chicos competitivos.",
-      who3t: "Jugadores de preparatoria",
-      who3d: "Golpeo confiable dentro de una semana escolar.",
-      who4t: "Mujeres y servicio militar",
-      who4d: "Una bahía tranquila, comentarios directos, sin media hora perdida.",
-      priceKicker: "Catálogo",
-      priceTitle: "Precios. Sin letra chica de paquetes.",
+        "Bahía con clima controlado. Números de FlightScope. Video multiángulo. Putting Capto. Clases y fittings con Yaser Garcia y Memo Vega — desde principiantes hasta jugadores competitivos.",
+      heroMeta: "5864 N Mesa St, Suite A · Lun–Vie 10am–7pm · Cerrado fines de semana",
+      aboutTitle: "El calor de El Paso queda afuera. Tu hora queda en el mat.",
+      aboutCopy:
+        "Perfect Swing 4U es una academia indoor en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Clases de una hora completa, fitting de palos y pro shop — sin tee times ni demoras por clima. Walk-ins bienvenidos si hay coach libre. Hay palos si no traes set.",
+      processTitle: "Cómo corre una clase",
+      processSub: "Reserva en Square. Llega. Sal con una cosa clara para practicar.",
+      step1t: "Reserva la hora",
+      step1d:
+        "Reserva en línea en Square, llama al (915) 449-3613, o entra si hay coach libre. Reprograma con 24 horas de aviso; no-shows pierden el 50%.",
+      step2t: "Mide la pelota",
+      step2d:
+        "FlightScope registra velocidad, launch, spin y carry. El video multiángulo muestra face-on y down-the-line. Capto putting usa un sensor en el putter para path, face y tempo.",
+      step3t: "Lleva el cambio afuera",
+      step3d:
+        "Tu coach elige uno o dos ajustes que importan para tu swing — no una lista larga. Drills que puedes repetir en el range o en el campo.",
+      priceTitle: "Clases y fittings",
+      priceSub: "Un coach. Sesión completa. Precios como se listan.",
       pPrivate: "Clase privada",
-      pPrivateDesc: "FlightScope + video",
+      pPrivateDesc: "60 min · FlightScope y video",
       pJunior: "Clase junior",
-      pJuniorDesc: "Estructurada para golfistas jóvenes",
-      pHS: "Clase de preparatoria",
-      pHSDesc: "Preparación competitiva",
+      pJuniorDesc: "60 min · golfistas jóvenes",
+      pHS: "Clase high school",
+      pHSDesc: "60 min · prep competitiva",
       pPut: "Análisis de putting",
-      pPutDesc: "Sensor Capto",
-      pDriver: "Ajuste de driver",
-      pDriverDesc: "Cabeza, shaft y loft según tus números",
-      pIron: "Ajuste de hierros",
+      pPutDesc: "30 min · sensor Capto",
+      pDriver: "Fitting de driver",
+      pDriverDesc: "Cabeza, shaft y loft a tus números",
+      pIron: "Fitting de hierros",
       pIronDesc: "Flex, largo, lie, grip",
-      pBag: "Ajuste de bolsa completa",
-      pBagDesc: "Del driver a los wedges",
-      session: "sesión",
+      pBag: "Fitting de bolsa completa",
+      pBagDesc: "Driver a wedges",
       pBundle: "Paquete swing + putting",
       pBundleDesc:
-        "Tres clases de swing de 60 minutos y dos sesiones de putting Capto de 30 minutos. Cinco visitas. Un plan.",
+        "Tres clases de swing de 60 minutos más dos sesiones Capto de 30 minutos — cinco visitas, un plan.",
       policy:
-        "Reprograma con 24 horas de aviso. Si no te presentas, pierdes el 50% de la clase. La reserva es solo por Square.",
-      coachKicker: "Equipo",
-      coachTitle: "Dos entrenadores. Una bahía.",
-      yaserRole: "Entrenador principal y fundador",
-      yaserTour: "Director de torneo de El Paso para U.S. Kids Golf.",
-      yaserBio:
-        "La metodología de Yaser cubre tres pilares: condición física, preparación mental y técnica, trabajando juntos como un solo sistema. Con más de 13 años de golf competitivo, dedicó su carrera a compartir el juego — mecánica de swing, putting Capto, acondicionamiento TPI y ajuste de palos bajo un mismo techo.",
-      memoRole: "Instructor y especialista en ajuste de palos",
-      memoCred: "Especialista en ajuste de palos",
-      memoBio:
-        "La filosofía de Memo se centra en el lado mental del juego. Usa comunicación y visualización para que la mejora se quede entre sesiones, no solo en el tapete. Su enfoque paciente y paso a paso ha dado resultados medibles desde principiantes hasta atletas de preparatoria.",
-      quoteKicker: "De los jugadores",
-      quoteTitle: "Lo que escribieron",
-      quoteLead:
-        "Publicado en perfectswing4u.org — impreso aquí sin cambios.",
-      shopKicker: "Tienda",
-      shopTitle: "Se ajusta aquí. Se compra aquí.",
-      shopLead: "Marcas en la pared — solo texto:",
-      phBayId: "PLACA 02",
-      phBayTitle: "[PLACEHOLDER: foto de la bahía bajo techo]",
-      phBayDesc: "Bahía con clima controlado y área de ajuste. Placa B&N de catálogo.",
-      visitKicker: "Ubicación",
-      visitTitle: "En N Mesa en Crown Point",
-      visitLead:
-        "Junto a Another Broken Egg Cafe. Visitas sin cita bienvenidas si hay entrenador libre.",
-      mapTitle: "Fig. 04 — N Mesa en Crown Point",
-      mapNote: "Mapa lineal · sin escala topográfica",
-      mapCaption:
-        "Diagrama de ubicación a mano para Crown Point. Usa Google Maps para la ruta.",
+        "Reprograma con 24 horas de aviso. No-shows pierden el 50% de la clase. Reserva solo por Square.",
+      techTitle: "Las herramientas en la bahía",
+      techSub: "En palabras claras — para que sepas qué estás viendo.",
+      tech1t: "FlightScope",
+      tech1d:
+        "Lecturas del monitor de launch en cada tiro: velocidad, ángulo, spin y carry. Tu coach usa los números que explican tu miss.",
+      tech2t: "Video multiángulo",
+      tech2d:
+        "Vistas face-on y down-the-line para que veas lo que ve el coach. Pausa, nombra el movimiento, golpea de nuevo.",
+      tech3t: "Putting Capto",
+      tech3d:
+        "Un sensor en el putter registra path, ángulo de face y tempo. Yaser está certificado en Capto Putting.",
+      coachTitle: "Los coaches",
+      coachSub:
+        "Dos instructores. Una bahía. Principiantes, juniors, high school, mujeres, militares y veteranos.",
+      yaserRole: "Head coach y fundador",
+      yaserTour: "Director de tour de El Paso para U.S. Kids Golf.",
+      memoRole: "Instructor y especialista en club fitting",
+      memoCred: "Especialista en club fitting",
+      brandsTitle: "En el pro shop",
+      brandsSub: "Marcas que manejamos — solo texto:",
+      reviewsTitle: "Lo que escribieron golfistas",
+      reviewsSub: "De perfectswing4u.org — aquí sin editar.",
+      visitTitle: "Visita la bahía",
+      visitSub: "En N Mesa en Crown Point, junto a Another Broken Egg Cafe.",
       addrLabel: "Dirección",
       directions: "Abrir en Google Maps",
-      contactLabel: "Contacto",
       hoursLabel: "Horario",
       monFri: "Lun–Vie",
       weekend: "Sáb–Dom",
       closed: "Cerrado",
+      phBayNote: "[PLACEHOLDER: foto de bahía] — exteriores y bahía pendientes.",
+      contactLabel: "Contacto",
       bookLabel: "Reservas",
       bookBody:
-        "Solo Square. Reprograma con 24 horas de aviso; si no te presentas, pierdes el 50%.",
-      phFrontId: "PLACA 03",
-      phFrontTitle: "[PLACEHOLDER: foto de la fachada]",
-      phFrontDesc: "Exterior en N Mesa en Crown Point. Placa B&N de catálogo.",
-      ctaTitle: "Si estás listo, reserva la hora.",
+        "Solo Square. Reprograma con 24 horas de aviso; no-shows pierden el 50%.",
+      ctaTitle: "Cuando tú quieras.",
       ctaCopy:
-        "Square en línea, llama a la bahía o entra cuando haya entrenador libre. Trae palos — o usa los prestados.",
-      footerTag: "Academia de golf bajo techo · El Paso, TX",
+        "Reserva en Square, llama a la bahía, o entra si hay coach libre. Trae palos — o usa los nuestros.",
+      footerTag: "Academia de golf indoor · El Paso, TX",
       follow: "Síguenos",
       rights: "© Perfect Swing 4U Golf Academy",
-      draftNote: "Borrador D · swiss studio",
+      draftNote: "Draft F · original refinado",
     },
   };
 
-  function applyLang(lang) {
-    if (!strings[lang]) return;
-    document.documentElement.lang = lang === "es" ? "es" : "en";
-    try {
-      localStorage.setItem(STORAGE_KEY, lang);
-    } catch (e) {
-      /* ignore */
-    }
+  var yaserBio = {
+    en: "Yaser’s methodology covers all three pillars: physical conditioning, mental preparation, and technical skills training working together as one system. With 13+ years playing competitive golf, he dedicated his career to sharing the game — bringing swing mechanics, Capto putting mastery, TPI fitness, and club fitting expertise under one roof.",
+    es: "La metodología de Yaser cubre los tres pilares: acondicionamiento físico, preparación mental y entrenamiento técnico trabajando juntos como un sistema. Con más de 13 años de golf competitivo, dedicó su carrera a compartir el juego — mecánica de swing, Capto putting, TPI fitness y club fitting bajo un mismo techo.",
+  };
 
+  var memoBio = {
+    en: "Memo’s teaching philosophy is rooted in the mental side of the game. He uses communication and visualization techniques to make improvement stick between sessions, not just on the lesson mat. His patient, step-by-step approach has produced measurable results for everyone from beginners to competitive high school athletes.",
+    es: "La filosofía de enseñanza de Memo está arraigada en el lado mental del juego. Usa técnicas de comunicación y visualización para que la mejora se quede entre sesiones, no solo en el mat. Su enfoque paciente y paso a paso ha producido resultados medibles desde principiantes hasta atletas competitivos de high school.",
+  };
+
+  function applyLang(lang) {
+    var pack = dict[lang] || dict.en;
+    document.documentElement.lang = lang;
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var key = el.getAttribute("data-i18n");
-      if (strings[lang][key] != null) el.textContent = strings[lang][key];
+      if (pack[key] != null) el.textContent = pack[key];
     });
+    var yaser = document.getElementById("yaser-bio");
+    var memo = document.getElementById("memo-bio");
+    if (yaser) yaser.textContent = yaserBio[lang] || yaserBio.en;
+    if (memo) memo.textContent = memoBio[lang] || memoBio.en;
 
     var enBtn = document.getElementById("lang-en");
     var esBtn = document.getElementById("lang-es");
-    if (enBtn && esBtn) {
-      enBtn.setAttribute("aria-pressed", lang === "en" ? "true" : "false");
-      esBtn.setAttribute("aria-pressed", lang === "es" ? "true" : "false");
-    }
+    if (enBtn) enBtn.setAttribute("aria-pressed", lang === "en" ? "true" : "false");
+    if (esBtn) esBtn.setAttribute("aria-pressed", lang === "es" ? "true" : "false");
 
-    var yaserBio = document.getElementById("yaser-bio");
-    var memoBio = document.getElementById("memo-bio");
-    if (yaserBio) yaserBio.textContent = strings[lang].yaserBio;
-    if (memoBio) memoBio.textContent = strings[lang].memoBio;
+    try {
+      localStorage.setItem(STORAGE_KEY, lang);
+    } catch (e) {}
   }
 
   function initLang() {
     var saved = null;
     try {
       saved = localStorage.getItem(STORAGE_KEY);
-    } catch (e) {
-      saved = null;
-    }
-    applyLang(saved === "es" || saved === "en" ? saved : "en");
+    } catch (e) {}
+    var lang = saved === "es" || saved === "en" ? saved : "en";
+    applyLang(lang);
+
+    var enBtn = document.getElementById("lang-en");
+    var esBtn = document.getElementById("lang-es");
+    if (enBtn) enBtn.addEventListener("click", function () { applyLang("en"); });
+    if (esBtn) esBtn.addEventListener("click", function () { applyLang("es"); });
   }
 
   function initNav() {
@@ -310,26 +241,26 @@
     var nav = document.getElementById("site-nav");
     if (!toggle || !nav) return;
 
+    function close() {
+      nav.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+    }
+
     toggle.addEventListener("click", function () {
       var open = nav.classList.toggle("is-open");
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
     });
 
-    nav.querySelectorAll("a").forEach(function (link) {
-      link.addEventListener("click", function () {
-        nav.classList.remove("is-open");
-        toggle.setAttribute("aria-expanded", "false");
-      });
+    nav.querySelectorAll("a").forEach(function (a) {
+      a.addEventListener("click", close);
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") close();
     });
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("lang-en").addEventListener("click", function () {
-      applyLang("en");
-    });
-    document.getElementById("lang-es").addEventListener("click", function () {
-      applyLang("es");
-    });
     initLang();
     initNav();
   });
