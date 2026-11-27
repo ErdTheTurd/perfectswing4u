@@ -14,11 +14,11 @@
       navVisit: "Visit",
       ctaBook: "Book a lesson",
       ctaMap: "Directions",
-      heroTitle: "Full-hour indoor lessons on N\u00A0Mesa.",
+      heroTitle: "Full\u2011hour indoor lessons on N\u00A0Mesa.",
       heroLead:
         "Climate-controlled bay at Crown Point. FlightScope on every shot, multi-angle video, Capto putting, and club fitting with Yaser Garcia and Memo Vega.",
       heroMeta: "5864 N Mesa St, Suite A · Mon\u2011Fri 10am\u20117pm · Closed weekends",
-      pillar1: "Full-hour lessons",
+      pillar1: "Full\u2011hour lessons",
       pillar2: "FlightScope on every shot",
       pillar3: "Mon\u2011Fri 10\u20117 on N\u00A0Mesa",
       aboutTitle: "El Paso heat stays outside. Your hour stays on the mat.",
@@ -99,7 +99,7 @@
       bookLabel: "Booking",
       bookBody:
         "Square only. Reschedule with 24 hours’ notice; missed appointments forfeit 50%.",
-      ctaTitle: "Book on Square. Open Mon–Fri 10am–7pm.",
+      ctaTitle: "Book on Square. Open Mon\u2011Fri 10am\u20117pm.",
       ctaCopy:
         "Call the bay, or walk in if a coach is free. Bring clubs — or use ours.",
       footerTag: "Indoor golf academy · El Paso, TX",
@@ -201,7 +201,7 @@
       bookLabel: "Reservas",
       bookBody:
         "Solo Square. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
-      ctaTitle: "Reserva en Square. Abierto lun–vie 10am–7pm.",
+      ctaTitle: "Reserva en Square. Abierto lun\u2011vie 10am\u20117pm.",
       ctaCopy:
         "Llama a la bahía, o entra sin cita previa si hay entrenador libre. Trae palos — o usa los nuestros.",
       footerTag: "Academia de golf bajo techo · El Paso, TX",
