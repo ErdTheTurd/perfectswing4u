@@ -14,7 +14,7 @@
       navVisit: "Visit",
       ctaBook: "Book a lesson",
       ctaMap: "Directions",
-      heroTitle: "Full-hour indoor lessons on N Mesa.",
+      heroTitle: "Full-hour indoor lessons on N\u00A0Mesa.",
       heroLead:
         "Climate-controlled bay at Crown Point. FlightScope on every shot, multi-angle video, Capto putting, and club fitting with Yaser Garcia and Memo Vega.",
       heroMeta: "5864 N Mesa St, Suite A · Mon–Fri 10am–7pm · Closed weekends",
@@ -92,10 +92,10 @@
       contactLabel: "Contact",
       bookLabel: "Booking",
       bookBody:
-        "Square only. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
-      ctaTitle: "Ready when you are.",
+        "Square only. Reschedule with 24 hours’ notice; missed appointments forfeit 50%.",
+      ctaTitle: "Book on Square. Open Mon–Fri 10am–7pm.",
       ctaCopy:
-        "Book on Square, call the bay, or walk in if a coach is free. Bring clubs — or use ours.",
+        "Call the bay, or walk in if a coach is free. Bring clubs — or use ours.",
       footerTag: "Indoor golf academy · El Paso, TX",
       follow: "Follow",
       rights: "© Perfect Swing 4U Golf Academy",
@@ -110,7 +110,7 @@
       navVisit: "Visita",
       ctaBook: "Reservar clase",
       ctaMap: "Cómo llegar",
-      heroTitle: "Clases de una hora bajo techo en N Mesa.",
+      heroTitle: "Clases de una hora bajo techo en N\u00A0Mesa.",
       heroLead:
         "Bahía con clima controlado en Crown Point. FlightScope en cada tiro, video multiángulo, putting Capto y ajuste de palos con Yaser Garcia y Memo Vega.",
       heroMeta: "5864 N Mesa St, Suite A · Lun–Vie 10am–7pm · Cerrado fines de semana",
@@ -121,10 +121,10 @@
       processSub: "Reserva en Square. Llega. Sal con una cosa clara para practicar.",
       step1t: "Reserva la hora",
       step1d:
-        "Reserva en línea en Square, llama al (915) 449-3613, o entra sin cita previa si hay entrenador libre. Reprograma con 24 horas de aviso; no-shows pierden el 50%.",
+        "Reserva en línea en Square, llama al (915) 449-3613, o entra sin cita previa si hay entrenador libre. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
       step2t: "Mide la pelota",
       step2d:
-        "FlightScope registra velocidad de la pelota, lanzamiento, efecto y distancia de vuelo. El video multiángulo muestra face-on y down-the-line. Capto putting usa un sensor en el putter para path, face y tempo.",
+        "FlightScope registra velocidad de la pelota, lanzamiento, efecto y distancia de vuelo. El video multiángulo muestra de frente y desde atrás. Capto putting usa un sensor en el putter para path, face y tempo.",
       step3t: "Lleva el cambio afuera",
       step3d:
         "Tu entrenador elige uno o dos ajustes que importan para tu swing — no una lista larga. Drills que puedes repetir en el range o en el campo.",
@@ -134,7 +134,7 @@
       pPrivateDesc: "60 min · FlightScope y video",
       pJunior: "Clase junior",
       pJuniorDesc: "60 min · golfistas jóvenes",
-      pHS: "Clase high school",
+      pHS: "Clase de preparatoria",
       pHSDesc: "60 min · prep competitiva",
       pPut: "Análisis de putting",
       pPutDesc: "30 min · sensor Capto",
@@ -148,7 +148,7 @@
       pBundleDesc:
         "Tres clases de swing de 60 minutos más dos sesiones Capto de 30 minutos — cinco visitas, un plan.",
       policy:
-        "Reprograma con 24 horas de aviso. No-shows pierden el 50% de la clase. Reserva solo por Square.",
+        "Reprograma con 24 horas de aviso. Si faltas sin aviso pierdes el 50% de la clase. Reserva solo por Square.",
       techTitle: "Las herramientas en la bahía",
       techSub: "Qué mide cada sistema, y qué hace tu entrenador con eso.",
       tech1t: "FlightScope",
@@ -156,7 +156,7 @@
       tech1d:
         "Lee velocidad de la pelota, lanzamiento, efecto y distancia de vuelo en cada tiro. Tu entrenador señala los números que explican un slice, un golpe delgado o una pérdida de distancia — luego golpeas de nuevo y revisas el cambio.",
       tech2t: "Video multiángulo",
-      tech2m: "Face-on · down-the-line",
+      tech2m: "De frente · desde atrás",
       tech2d:
         "Dos cámaras del mismo swing. Pausa el frame, nombra el movimiento y compara el siguiente tiro para ver lo que ve el entrenador — no un tip vago de “quédate abajo.”",
       tech3t: "Putting Capto",
@@ -169,8 +169,8 @@
         "Cabeza, shaft, loft, flex, largo, lie y grip alineados a tus números de FlightScope. Ajuste de driver $60, hierros $80, bolsa completa $160 — Memo se especializa en ajustes.",
       coachTitle: "Los entrenadores",
       coachSub:
-        "Dos instructores. Una bahía. Principiantes, juniors, high school, mujeres, militares y veteranos.",
-      yaserRole: "Head coach y fundador",
+        "Dos instructores. Una bahía. Principiantes, juniors, preparatoria, mujeres, militares y veteranos.",
+      yaserRole: "Entrenador principal y fundador",
       yaserTour: "Director de tour de El Paso para U.S. Kids Golf.",
       memoRole: "Instructor y especialista en ajuste de palos",
       memoCred: "Especialista en ajuste de palos",
@@ -188,10 +188,10 @@
       contactLabel: "Contacto",
       bookLabel: "Reservas",
       bookBody:
-        "Solo Square. Reprograma con 24 horas de aviso; no-shows pierden el 50%.",
-      ctaTitle: "Cuando tú quieras.",
+        "Solo Square. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
+      ctaTitle: "Reserva en Square. Abierto lun–vie 10am–7pm.",
       ctaCopy:
-        "Reserva en Square, llama a la bahía, o entra sin cita previa si hay entrenador libre. Trae palos — o usa los nuestros.",
+        "Llama a la bahía, o entra sin cita previa si hay entrenador libre. Trae palos — o usa los nuestros.",
       footerTag: "Academia de golf bajo techo · El Paso, TX",
       follow: "Síguenos",
       rights: "© Perfect Swing 4U Golf Academy",
@@ -205,7 +205,7 @@
 
   var memoBio = {
     en: "Memo runs fittings and private lessons. He teaches with clear talk and visualization so the change holds between sessions — beginners through competitive high school players.",
-    es: "Memo hace ajustes de palos y clases privadas. Enseña con conversación clara y visualización para que el cambio se quede entre sesiones — desde principiantes hasta jugadores competitivos de high school.",
+    es: "Memo hace ajustes de palos y clases privadas. Enseña con conversación clara y visualización para que el cambio se quede entre sesiones — desde principiantes hasta jugadores competitivos de preparatoria.",
   };
 
   function applyLang(lang) {

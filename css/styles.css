@@ -441,12 +441,20 @@ a.btn-gold:hover,
 
 .hero-copy h1 {
   margin: 0;
-  font-size: clamp(2.55rem, 7.2vw, 4.35rem);
-  line-height: 1.02;
-  letter-spacing: -0.038em;
+  font-size: clamp(2.2rem, 5.8vw, 3.75rem);
+  line-height: 1.06;
+  letter-spacing: -0.035em;
   font-weight: 800;
   color: var(--forest);
-  max-width: 11ch;
+  max-width: 13.5ch;
+  text-wrap: pretty;
+}
+
+@media (max-width: 480px) {
+  .hero-copy h1 {
+    font-size: 2.15rem;
+    max-width: 11.5ch;
+  }
 }
 
 .hero-copy .lead {
@@ -474,6 +482,7 @@ a.btn-gold:hover,
   position: relative;
   min-height: 24rem;
   background: var(--sand);
+  overflow: hidden;
 }
 
 @media (min-width: 900px) {
@@ -486,8 +495,11 @@ a.btn-gold:hover,
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 28%;
+  /* Favor upper facade; cropped + slight scale hides any bottom-edge artifacts */
+  object-position: 52% 8%;
   min-height: 24rem;
+  transform: scale(1.05);
+  transform-origin: 50% 0%;
 }
 
 @media (min-width: 900px) {
@@ -495,6 +507,8 @@ a.btn-gold:hover,
     position: absolute;
     inset: 0;
     min-height: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -967,7 +981,7 @@ a.btn-gold:hover,
 }
 
 .visit-photo {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   border-radius: var(--radius);
   background: var(--sand);
@@ -977,7 +991,7 @@ a.btn-gold:hover,
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 55% 18%;
+  object-position: center 40%;
 }
 
 .visit-grid {
