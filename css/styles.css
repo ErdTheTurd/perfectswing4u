@@ -244,11 +244,24 @@ a:hover {
 
 .btn-gold {
   background: var(--gold);
-  color: var(--forest);
+  color: var(--text);
   border-color: var(--gold);
 }
 
-.btn-gold:hover {
+a.btn-gold,
+.section-forest a.btn-gold,
+.site-footer a.btn-gold,
+.bundle a.btn-gold,
+.visit-card a.btn-gold {
+  color: var(--text);
+}
+
+.btn-gold:hover,
+a.btn-gold:hover,
+.section-forest a.btn-gold:hover,
+.site-footer a.btn-gold:hover,
+.bundle a.btn-gold:hover,
+.visit-card a.btn-gold:hover {
   background: var(--gold-deep);
   border-color: var(--gold-deep);
   color: var(--white);
@@ -372,7 +385,7 @@ a:hover {
   }
 }
 
-/* Hero — people first, brand colors, no dark overlay */
+/* Hero — large H1, normal brand mark, storefront photo */
 .hero {
   background: var(--off);
   border-bottom: 1px solid var(--border);
@@ -386,24 +399,24 @@ a:hover {
 
 @media (min-width: 900px) {
   .hero-grid {
-    grid-template-columns: 1.05fr 0.95fr;
+    grid-template-columns: 0.95fr 1.05fr;
     min-height: calc(100svh - var(--header-h));
-    max-height: 52rem;
+    max-height: 54rem;
   }
 }
 
 .hero-copy {
-  padding: clamp(2rem, 6vw, 4rem) var(--gutter);
+  padding: clamp(2.25rem, 6vw, 4.25rem) var(--gutter);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.15rem;
+  gap: 1.05rem;
 }
 
 @media (min-width: 900px) {
   .hero-copy {
-    padding: clamp(2.5rem, 6vw, 4.5rem) 0 clamp(2.5rem, 6vw, 4.5rem) max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter)));
-    padding-right: 2.5rem;
+    padding: clamp(2.75rem, 6vw, 4.75rem) 0 clamp(2.75rem, 6vw, 4.75rem) max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter)));
+    padding-right: 2.75rem;
   }
 }
 
@@ -411,56 +424,56 @@ a:hover {
   margin: 0;
   display: flex;
   align-items: center;
-  gap: 0.7rem;
-  font-size: clamp(2.35rem, 6.5vw, 3.65rem);
-  font-weight: 800;
-  letter-spacing: -0.04em;
+  gap: 0.55rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
   color: var(--forest);
-  line-height: 1.02;
+  line-height: 1;
 }
 
 .hero-brand img {
-  width: clamp(2.5rem, 6vw, 3.4rem);
-  height: clamp(2.5rem, 6vw, 3.4rem);
+  width: 2.15rem;
+  height: 2.15rem;
   object-fit: contain;
   flex-shrink: 0;
 }
 
 .hero-copy h1 {
   margin: 0;
-  font-size: clamp(1.35rem, 2.8vw, 1.75rem);
-  line-height: 1.25;
-  letter-spacing: -0.02em;
-  font-weight: 600;
-  color: var(--text);
-  max-width: 22ch;
+  font-size: clamp(2.55rem, 7.2vw, 4.35rem);
+  line-height: 1.02;
+  letter-spacing: -0.038em;
+  font-weight: 800;
+  color: var(--forest);
+  max-width: 11ch;
 }
 
 .hero-copy .lead {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.08rem;
   color: var(--muted);
-  max-width: 36ch;
-  line-height: 1.5;
+  max-width: 38ch;
+  line-height: 1.55;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem;
-  margin-top: 0.35rem;
+  margin-top: 0.4rem;
 }
 
 .hero-meta {
-  margin: 0.35rem 0 0;
+  margin: 0.2rem 0 0;
   font-size: 0.875rem;
   color: var(--muted);
 }
 
 .hero-photo {
   position: relative;
-  min-height: 22rem;
-  background: var(--forest);
+  min-height: 24rem;
+  background: var(--sand);
 }
 
 @media (min-width: 900px) {
@@ -473,8 +486,8 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 12%;
-  min-height: 22rem;
+  object-position: center 28%;
+  min-height: 24rem;
 }
 
 @media (min-width: 900px) {
@@ -495,11 +508,11 @@ a:hover {
   color: var(--white);
 }
 
-.section-forest a {
+.section-forest a:not(.btn) {
   color: var(--gold);
 }
 
-.section-forest a:hover {
+.section-forest a:not(.btn):hover {
   color: var(--white);
 }
 
@@ -692,44 +705,85 @@ a:hover {
   color: var(--muted);
 }
 
-/* Tech — text columns, varied width, no icons */
-.tech-grid {
+/* Tech — editorial stacked list, not a three-up card row */
+.tech-wrap {
   display: grid;
-  gap: 1.75rem;
+  gap: 2rem;
 }
 
-@media (min-width: 800px) {
-  .tech-grid {
-    grid-template-columns: 1.2fr 1fr 1fr;
-    gap: 2rem;
+@media (min-width: 900px) {
+  .tech-wrap {
+    grid-template-columns: minmax(12rem, 0.7fr) 1.3fr;
+    gap: 3.5rem;
+    align-items: start;
+  }
+
+  .tech-intro {
+    position: sticky;
+    top: calc(var(--header-h) + 1.25rem);
+  }
+
+  .tech-intro .sub {
+    margin-bottom: 0;
   }
 }
 
-.tech-item h3 {
-  margin: 0 0 0.45rem;
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--white);
+.tech-list {
+  border-top: 2px solid var(--forest);
 }
 
-.tech-item p {
+.tech-row {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1.45rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+@media (min-width: 720px) {
+  .tech-row {
+    grid-template-columns: 11rem 1fr;
+    column-gap: 1.75rem;
+    row-gap: 0.25rem;
+    align-items: baseline;
+  }
+
+  .tech-row h3 {
+    grid-row: 1 / span 2;
+    align-self: start;
+    padding-top: 0.15rem;
+  }
+
+  .tech-row .tech-meta {
+    grid-column: 2;
+  }
+
+  .tech-row p:not(.tech-meta) {
+    grid-column: 2;
+  }
+}
+
+.tech-row h3 {
   margin: 0;
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 0.98rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--forest);
 }
 
-.tech-item + .tech-item {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 1.25rem;
+.tech-row .tech-meta {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
 }
 
-@media (min-width: 800px) {
-  .tech-item + .tech-item {
-    border-top: 0;
-    padding-top: 0;
-    border-left: 1px solid rgba(255, 255, 255, 0.15);
-    padding-left: 1.75rem;
-  }
+.tech-row p:not(.tech-meta) {
+  margin: 0;
+  color: var(--muted);
+  max-width: 48ch;
+  font-size: 1.02rem;
 }
 
 /* Coaches — emotional center */
@@ -780,7 +834,11 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 10%;
+  object-position: center 8%;
+}
+
+.coach:first-child .coach-photo img {
+  object-position: center 12%;
 }
 
 .coach h3 {
@@ -828,17 +886,29 @@ a:hover {
 }
 
 /* Brands */
+.brands-block h2 {
+  margin-bottom: 1.1rem;
+}
+
 .brands {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 1.5rem;
-  font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+  align-items: baseline;
+  gap: 0.35rem 0;
+  font-size: clamp(1.15rem, 2.4vw, 1.55rem);
   font-weight: 700;
   color: var(--forest);
   letter-spacing: -0.02em;
+}
+
+.brands li:not(:last-child)::after {
+  content: "·";
+  margin: 0 0.75rem;
+  color: var(--gold);
+  font-weight: 700;
 }
 
 /* Quotes */
@@ -883,16 +953,36 @@ a:hover {
 }
 
 /* Visit */
-.visit-grid {
+.visit-layout {
   display: grid;
-  gap: 1.5rem;
+  gap: 1.75rem;
 }
 
-@media (min-width: 800px) {
-  .visit-grid {
-    grid-template-columns: 1.2fr 0.8fr;
+@media (min-width: 900px) {
+  .visit-layout {
+    grid-template-columns: 1.05fr 0.95fr;
     gap: 2.5rem;
+    align-items: start;
   }
+}
+
+.visit-photo {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--sand);
+}
+
+.visit-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 55% 18%;
+}
+
+.visit-grid {
+  display: grid;
+  gap: 1.75rem;
 }
 
 .visit-card {
@@ -912,9 +1002,17 @@ a:hover {
   color: var(--muted);
 }
 
-.visit-card a {
+.visit-card a:not(.btn) {
   color: var(--green);
   font-weight: 600;
+}
+
+.visit-link {
+  margin-top: 0.7rem !important;
+}
+
+.visit-spaced {
+  margin-top: 1.25rem !important;
 }
 
 .hours {
@@ -933,20 +1031,6 @@ a:hover {
   min-width: 4.5rem;
   font-weight: 700;
   color: var(--text);
-}
-
-.note-sm {
-  margin: 0.75rem 0 0;
-  font-size: 0.8rem;
-  color: var(--muted);
-}
-
-.note-sm code {
-  font-family: inherit;
-  font-size: 0.78rem;
-  background: var(--sand);
-  padding: 0.1em 0.35em;
-  border-radius: 3px;
 }
 
 /* CTA */
@@ -990,12 +1074,16 @@ a:hover {
   font-size: 1.05rem;
 }
 
-.site-footer a {
+.site-footer a:not(.btn) {
   color: var(--gold);
 }
 
-.site-footer a:hover {
+.site-footer a:not(.btn):hover {
   color: var(--white);
+}
+
+.foot-bottom p {
+  margin: 0;
 }
 
 .social {
