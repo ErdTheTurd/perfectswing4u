@@ -23,32 +23,42 @@
       methodKicker: "Fig. 01 — instruments",
       methodTitle: "What we look at in a session",
       methodLead:
-        "I would rather show you the shot than talk around it. Three tools. Plain labels.",
+        "Better to show the shot than talk around it. Three tools. Plain labels.",
       specAName: "FlightScope",
       specAMeasure: "ball speed · launch · spin · carry",
       specABody:
-        "Every ball leaves a reading. We pick the one or two numbers that explain your miss — then we change the swing to move those numbers, not the other way around.",
+        "Every ball leaves a reading. The coach picks the one or two numbers that explain the miss — then changes the swing to move those numbers, not the other way around.",
       specBName: "Multi-angle video",
       specBMeasure: "face-on · down-the-line",
       specBBody:
-        "You watch the same angles I watch. Feel lies. The camera does not. We pause the clip, name the move, then try it again on the mat.",
+        "Player and coach watch the same angles. Feel lies; the camera does not. Pause the clip, name the move, try it again on the mat.",
       specCName: "Capto putting",
       specCMeasure: "path · face · tempo · 30 min",
       specCBody:
-        "A sensor on the putter tracks the stroke. I am Capto certified — so the fix on the green is measured the same way we measure a driver.",
+        "A sensor on the putter tracks the stroke. Yaser is Capto certified — so the fix on the green is measured the same way a driver is measured.",
+      illustTag: "Illustration",
+      fsTitle: "Fig. 02 — FlightScope readout",
+      fsNote: "Illustration · example values",
+      fsCaption:
+        " — sample numbers only; each lesson starts from the player’s actual baseline.",
+      captoTitle: "Fig. 03 — Capto putter path",
+      captoNote: "Illustration · example stroke",
+      captoCaption:
+        " — example stroke geometry for teaching; live Capto values come from the sensor on the putter.",
+      phLessonId: "PLATE 01",
       phLessonTitle: "[PLACEHOLDER: photo of lesson in progress]",
       phLessonDesc:
-        "Tight crop of coach and player at the mat; FlightScope screen in frame.",
+        "Hard crop, bay light, FlightScope screen soft in frame. Catalogue B&W.",
       whoKicker: "Who walks in",
       whoTitle:
         "Beginners through competitive. Juniors, high school, women, military, veterans.",
       whoLead:
-        "Walk in when a coach is free. Call ahead if you can — we keep the bay honest.",
+        "Walk in when a coach is free. Call ahead if you can — the bay stays honest.",
       who1t: "First time holding a club",
       who1d: "Grip, setup, a swing you can repeat. No audience on a public range.",
       who2t: "Juniors & U.S. Kids families",
       who2d:
-        "Age-right coaching. I direct the El Paso U.S. Kids Golf tour — the pathway stays clear for competitive kids.",
+        "Age-right coaching. Yaser directs the El Paso U.S. Kids Golf tour — the pathway stays clear for competitive kids.",
       who3t: "High school players",
       who3d: "Ball-striking you can trust under a school-week schedule.",
       who4t: "Women & service members",
@@ -92,12 +102,17 @@
       shopKicker: "Pro shop",
       shopTitle: "Fit here. Buy here.",
       shopLead: "Brands on the wall — text only:",
+      phBayId: "PLATE 02",
       phBayTitle: "[PLACEHOLDER: photo of indoor bay]",
-      phBayDesc: "Climate-controlled bay and fitting area.",
+      phBayDesc: "Climate-controlled bay and fitting area. Catalogue B&W plate.",
       visitKicker: "Location",
       visitTitle: "On N Mesa at Crown Point",
       visitLead:
         "Next to Another Broken Egg Cafe. Walk-ins welcome when a coach is free.",
+      mapTitle: "Fig. 04 — N Mesa at Crown Point",
+      mapNote: "Line map · not to survey scale",
+      mapCaption:
+        "Hand-set location diagram for Crown Point. Use Google Maps for turn-by-turn.",
       addrLabel: "Address",
       directions: "Open in Google Maps",
       contactLabel: "Contact",
@@ -108,11 +123,12 @@
       bookLabel: "Booking",
       bookBody:
         "Square only. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
+      phFrontId: "PLATE 03",
       phFrontTitle: "[PLACEHOLDER: photo of storefront]",
-      phFrontDesc: "Exterior on N Mesa at Crown Point.",
+      phFrontDesc: "Exterior on N Mesa at Crown Point. Catalogue B&W plate.",
       ctaTitle: "If you are ready, book the hour.",
       ctaCopy:
-        "Square online, call the bay, or walk in if we are free. Bring your clubs — or use ours.",
+        "Square online, call the bay, or walk in when a coach is free. Bring clubs — or use the loaners.",
       footerTag: "Indoor golf academy · El Paso, TX",
       follow: "Follow",
       rights: "© Perfect Swing 4U Golf Academy",
@@ -138,33 +154,43 @@
       methodKicker: "Fig. 01 — instrumentos",
       methodTitle: "Qué miramos en una sesión",
       methodLead:
-        "Prefiero mostrarte el golpe a hablar alrededor. Tres herramientas. Etiquetas claras.",
+        "Mejor mostrar el golpe que hablar alrededor. Tres herramientas. Etiquetas claras.",
       specAName: "FlightScope",
       specAMeasure: "velocidad · lanzamiento · spin · carry",
       specABody:
-        "Cada bola deja una lectura. Elegimos uno o dos números que explican tu error — y cambiamos el swing para mover esos números, no al revés.",
+        "Cada bola deja una lectura. El entrenador elige uno o dos números que explican el error — y cambia el swing para mover esos números, no al revés.",
       specBName: "Video en varios ángulos",
       specBMeasure: "de frente · línea de tiro",
       specBBody:
-        "Ves los mismos ángulos que yo. La sensación miente. La cámara no. Pausamos el clip, nombramos el movimiento y lo intentamos otra vez en el tapete.",
+        "Jugador y entrenador ven los mismos ángulos. La sensación miente; la cámara no. Se pausa el clip, se nombra el movimiento y se intenta otra vez en el tapete.",
       specCName: "Putting con Capto",
       specCMeasure: "trayectoria · cara · tempo · 30 min",
       specCBody:
-        "Un sensor en el putter mide el stroke. Estoy certificado en Capto — el arreglo en el green se mide igual que un driver.",
+        "Un sensor en el putter mide el stroke. Yaser está certificado en Capto — el arreglo en el green se mide igual que un driver.",
+      illustTag: "Ilustración",
+      fsTitle: "Fig. 02 — lectura FlightScope",
+      fsNote: "Ilustración · valores de ejemplo",
+      fsCaption:
+        " — solo números de muestra; cada clase parte de la línea base real del jugador.",
+      captoTitle: "Fig. 03 — trayectoria Capto",
+      captoNote: "Ilustración · golpe de ejemplo",
+      captoCaption:
+        " — geometría de ejemplo para enseñar; los valores reales de Capto vienen del sensor en el putter.",
+      phLessonId: "PLACA 01",
       phLessonTitle: "[PLACEHOLDER: foto de una clase en progreso]",
       phLessonDesc:
-        "Recorte cerrado de entrenador y jugador en el tapete; pantalla FlightScope en cuadro.",
+        "Recorte duro, luz de bahía, pantalla FlightScope suave. Placa B&N de catálogo.",
       whoKicker: "Quién entra",
       whoTitle:
         "De principiantes a competitivos. Juniors, preparatoria, mujeres, militares, veteranos.",
       whoLead:
-        "Entra cuando haya entrenador libre. Llama antes si puedes — mantenemos la bahía en orden.",
+        "Entra cuando haya entrenador libre. Llama antes si puedes — la bahía se mantiene en orden.",
       who1t: "Primera vez con un palo",
       who1d:
         "Agarre, postura, un swing que puedas repetir. Sin público de práctica abierta.",
       who2t: "Juniors y familias U.S. Kids",
       who2d:
-        "Entrenamiento acorde a la edad. Dirijo el tour de El Paso de U.S. Kids Golf — el camino queda claro para chicos competitivos.",
+        "Entrenamiento acorde a la edad. Yaser dirige el tour de El Paso de U.S. Kids Golf — el camino queda claro para chicos competitivos.",
       who3t: "Jugadores de preparatoria",
       who3d: "Golpeo confiable dentro de una semana escolar.",
       who4t: "Mujeres y servicio militar",
@@ -208,12 +234,17 @@
       shopKicker: "Tienda",
       shopTitle: "Se ajusta aquí. Se compra aquí.",
       shopLead: "Marcas en la pared — solo texto:",
+      phBayId: "PLACA 02",
       phBayTitle: "[PLACEHOLDER: foto de la bahía bajo techo]",
-      phBayDesc: "Bahía con clima controlado y área de ajuste.",
+      phBayDesc: "Bahía con clima controlado y área de ajuste. Placa B&N de catálogo.",
       visitKicker: "Ubicación",
       visitTitle: "En N Mesa en Crown Point",
       visitLead:
         "Junto a Another Broken Egg Cafe. Visitas sin cita bienvenidas si hay entrenador libre.",
+      mapTitle: "Fig. 04 — N Mesa en Crown Point",
+      mapNote: "Mapa lineal · sin escala topográfica",
+      mapCaption:
+        "Diagrama de ubicación a mano para Crown Point. Usa Google Maps para la ruta.",
       addrLabel: "Dirección",
       directions: "Abrir en Google Maps",
       contactLabel: "Contacto",
@@ -224,11 +255,12 @@
       bookLabel: "Reservas",
       bookBody:
         "Solo Square. Reprograma con 24 horas de aviso; si no te presentas, pierdes el 50%.",
+      phFrontId: "PLACA 03",
       phFrontTitle: "[PLACEHOLDER: foto de la fachada]",
-      phFrontDesc: "Exterior en N Mesa en Crown Point.",
+      phFrontDesc: "Exterior en N Mesa en Crown Point. Placa B&N de catálogo.",
       ctaTitle: "Si estás listo, reserva la hora.",
       ctaCopy:
-        "Square en línea, llama a la bahía o entra si estamos libres. Trae tus palos — o usa los nuestros.",
+        "Square en línea, llama a la bahía o entra cuando haya entrenador libre. Trae palos — o usa los prestados.",
       footerTag: "Academia de golf bajo techo · El Paso, TX",
       follow: "Síguenos",
       rights: "© Perfect Swing 4U Golf Academy",
