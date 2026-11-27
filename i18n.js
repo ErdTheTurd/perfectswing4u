@@ -11,7 +11,6 @@ window.PS4U_I18N = {
     "nav.menuClose": "Close menu",
     "cover.meta1": "El Paso, TX",
     "cover.meta2": "Indoor · climate-controlled",
-    "cover.meta3": "Yardage book · Draft C",
     "cover.h1": "Bring your swing indoors.",
     "cover.lead": "I’m Yaser. If the desert heat is cooking the range, come work with us on N Mesa—launch monitor, video, putting sensor, fitting. One bay. Real notes. No tee sheet.",
     "cover.directions": "Get directions",
@@ -109,23 +108,22 @@ window.PS4U_I18N = {
     "footer.visit": "Visit",
     "footer.contact": "Contact",
     "footer.social": "Social",
-    "footer.note": "Draft C · yardage book"
+    "footer.note": "Indoor golf · El Paso, TX"
   },
   es: {
     "skip": "Saltar al contenido",
     "nav.lesson": "01 Clase",
-    "nav.coaches": "02 Coaches",
+    "nav.coaches": "02 Entrenadores",
     "nav.pricing": "03 Tarifas",
-    "nav.juniors": "04 Juniors",
+    "nav.juniors": "04 Jóvenes",
     "nav.visit": "05 Visítanos",
     "nav.book": "Reservar clase",
     "nav.menu": "Abrir menú",
     "nav.menuClose": "Cerrar menú",
     "cover.meta1": "El Paso, TX",
     "cover.meta2": "Bajo techo · clima controlado",
-    "cover.meta3": "Yardage book · Borrador C",
     "cover.h1": "Trae tu swing adentro.",
-    "cover.lead": "Soy Yaser. Si el calor del desierto está cocinando el range, ven a trabajar con nosotros en N Mesa—launch monitor, video, sensor de putting, fitting. Una bahía. Notas reales. Sin tee sheet.",
+    "cover.lead": "Soy Yaser. Si el calor del desierto está cocinando la práctica, ven a trabajar con nosotros en N Mesa—monitor de lanzamiento, video, sensor de putting y ajuste de palos. Una bahía. Notas reales. Sin hoja de tee times.",
     "cover.directions": "Cómo llegar",
     "h01.num": "01",
     "h01.title": "Cómo es una clase",
@@ -221,6 +219,6 @@ window.PS4U_I18N = {
     "footer.visit": "Visítanos",
     "footer.contact": "Contacto",
     "footer.social": "Social",
-    "footer.note": "Borrador C · yardage book"
+    "footer.note": "Golf bajo techo · El Paso, TX"
   }
 };

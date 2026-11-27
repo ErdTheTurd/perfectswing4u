@@ -67,6 +67,45 @@
   var year = document.getElementById("year");
   if (year) year.textContent = String(new Date().getFullYear());
 
+  function scrollToId(id) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var header = document.querySelector(".site-header");
+    var pad = (header ? header.offsetHeight : 64) + 10;
+    var top = el.getBoundingClientRect().top + window.pageYOffset - pad;
+    window.scrollTo(0, Math.max(0, top));
+  }
+
+  document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      var id = link.getAttribute("href").slice(1);
+      if (!id) return;
+      var target = document.getElementById(id);
+      if (!target) return;
+      e.preventDefault();
+      if (nav) {
+        nav.classList.remove("is-open");
+        if (toggle) {
+          toggle.setAttribute("aria-expanded", "false");
+          var pack = dict[document.documentElement.lang === "es" ? "es" : "en"];
+          if (pack["nav.menu"]) toggle.setAttribute("aria-label", pack["nav.menu"]);
+        }
+      }
+      history.pushState(null, "", "#" + id);
+      requestAnimationFrame(function () {
+        requestAnimationFrame(function () {
+          scrollToId(id);
+        });
+      });
+    });
+  });
+
+  if (location.hash && location.hash.length > 1) {
+    requestAnimationFrame(function () {
+      scrollToId(location.hash.slice(1));
+    });
+  }
+
   var initial = "en";
   try {
     var saved = localStorage.getItem(storageKey);
