@@ -252,7 +252,8 @@ a.btn-gold,
 .section-forest a.btn-gold,
 .site-footer a.btn-gold,
 .bundle a.btn-gold,
-.visit-card a.btn-gold {
+.visit-block a.btn-gold,
+.coaches-band a.btn-gold {
   color: var(--text);
 }
 
@@ -261,7 +262,8 @@ a.btn-gold:hover,
 .section-forest a.btn-gold:hover,
 .site-footer a.btn-gold:hover,
 .bundle a.btn-gold:hover,
-.visit-card a.btn-gold:hover {
+.visit-block a.btn-gold:hover,
+.coaches-band a.btn-gold:hover {
   background: var(--gold-deep);
   border-color: var(--gold-deep);
   color: var(--white);
@@ -495,9 +497,46 @@ a.btn-gold:hover,
   object-position: center 28%;
 }
 
+/* Gold accent band */
+.gold-band {
+  background: var(--gold);
+  color: var(--text);
+  padding: 0.95rem 0;
+}
+
+.gold-band-inner p {
+  margin: 0;
+  font-size: clamp(0.82rem, 2.6vw, 0.95rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-align: center;
+  line-height: 1.4;
+  text-wrap: balance;
+}
+
+.gold-band-brands {
+  padding: 1.5rem 0 1.65rem;
+}
+
+.gold-band-brands h2 {
+  margin: 0 0 0.65rem;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--forest);
+  max-width: none;
+}
+
+.rule-gold {
+  width: 3.25rem;
+  height: 2px;
+  background: var(--gold);
+  margin: 1rem 0 0;
+}
+
 /* Sections */
 .section {
-  padding: clamp(3rem, 7vw, 5rem) 0;
+  padding: clamp(3.25rem, 7.5vw, 5.5rem) 0;
 }
 
 .section-forest {
@@ -517,15 +556,36 @@ a.btn-gold:hover,
   background: var(--white);
 }
 
+.section-off {
+  background: var(--off);
+}
+
 .section-sand {
   background: var(--sand);
 }
 
+/* Fine turf/grain texture — flat color + noise, no gradients */
+.section-grain {
+  position: relative;
+  isolation: isolate;
+}
+
+.section-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.07;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+
 .section h2 {
   margin: 0 0 0.85rem;
-  font-size: clamp(1.85rem, 4.2vw, 2.75rem);
-  line-height: 1.12;
-  letter-spacing: -0.03em;
+  font-size: clamp(1.95rem, 4.4vw, 2.9rem);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
   font-weight: 800;
   max-width: 18ch;
 }
@@ -538,7 +598,7 @@ a.btn-gold:hover,
 }
 
 .section-forest .sub {
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(255, 255, 255, 0.74);
 }
 
 .split {
@@ -564,29 +624,29 @@ a.btn-gold:hover,
 .step {
   display: grid;
   gap: 0.5rem;
-  padding: 1.35rem 0;
+  padding: 1.5rem 0;
   border-bottom: 1px solid var(--border);
 }
 
 @media (min-width: 720px) {
   .step {
-    grid-template-columns: 3.5rem 1fr;
-    gap: 1.25rem;
+    grid-template-columns: 4rem 1fr;
+    gap: 1.35rem;
     align-items: start;
   }
 }
 
 .step-num {
-  font-size: 1.5rem;
+  font-size: 1.85rem;
   font-weight: 800;
   color: var(--gold);
-  letter-spacing: -0.03em;
+  letter-spacing: -0.04em;
   line-height: 1;
 }
 
 .step h3 {
   margin: 0 0 0.3rem;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
@@ -597,11 +657,11 @@ a.btn-gold:hover,
   max-width: 48ch;
 }
 
-/* Prices */
+/* Prices — clear groups, large numbers */
 .price-head {
   display: grid;
   gap: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 760px) {
@@ -615,24 +675,50 @@ a.btn-gold:hover,
   }
 }
 
+.price-groups {
+  display: grid;
+  gap: 2.5rem;
+}
+
+@media (min-width: 960px) {
+  .price-groups {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.25rem 2.75rem;
+  }
+
+  .price-group-package {
+    grid-column: 1 / -1;
+  }
+}
+
+.price-group-title {
+  margin: 0 0 0.85rem;
+  font-size: clamp(1.35rem, 2.5vw, 1.65rem);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--forest);
+  padding-bottom: 0.55rem;
+  border-bottom: 2px solid var(--gold);
+}
+
 .prices {
-  border-top: 2px solid var(--forest);
-  background: var(--white);
+  background: transparent;
 }
 
 .price-row {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 0.35rem 1rem;
-  padding: 1.05rem 0;
+  gap: 0.25rem 1rem;
+  padding: 1.15rem 0;
   border-bottom: 1px solid var(--border);
   align-items: baseline;
 }
 
-.price-row h3 {
+.price-row h4 {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.12rem;
   font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 .price-row .desc {
@@ -644,7 +730,7 @@ a.btn-gold:hover,
 
 @media (min-width: 700px) {
   .price-row {
-    grid-template-columns: 1.3fr 1fr auto;
+    grid-template-columns: 1.2fr 1fr auto;
     align-items: center;
   }
 
@@ -654,55 +740,57 @@ a.btn-gold:hover,
 }
 
 .price-num {
-  font-size: clamp(1.85rem, 3.5vw, 2.4rem);
+  font-size: clamp(2.35rem, 5vw, 3.35rem);
   font-weight: 800;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.05em;
   color: var(--forest);
   font-variant-numeric: tabular-nums;
-  line-height: 1;
+  line-height: 0.95;
 }
 
 .bundle {
-  margin-top: 1.35rem;
-  padding: 1.35rem 1.4rem;
+  padding: 1.6rem 1.5rem;
   background: var(--forest);
   color: var(--white);
-  border-radius: var(--radius);
   display: grid;
-  gap: 0.85rem;
+  gap: 1rem;
 }
 
 @media (min-width: 800px) {
   .bundle {
     grid-template-columns: auto 1fr auto;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.75rem;
+    padding: 1.85rem 2rem;
   }
 }
 
 .bundle .price-num {
   color: var(--gold);
+  font-size: clamp(2.75rem, 5.5vw, 4rem);
 }
 
-.bundle h3 {
-  margin: 0 0 0.25rem;
-  font-size: 1.2rem;
+.bundle h4 {
+  margin: 0 0 0.35rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 .bundle p {
   margin: 0;
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 0.95rem;
-  max-width: 40ch;
+  color: rgba(255, 255, 255, 0.74);
+  font-size: 1rem;
+  max-width: 42ch;
 }
 
 .policy {
-  margin: 1rem 0 0;
+  margin: 1.5rem 0 0;
   font-size: 0.9rem;
   color: var(--muted);
 }
 
-/* Tech — editorial stacked list, not a three-up card row */
+/* Tech on forest */
 .tech-wrap {
   display: grid;
   gap: 2rem;
@@ -726,14 +814,14 @@ a.btn-gold:hover,
 }
 
 .tech-list {
-  border-top: 2px solid var(--forest);
+  border-top: 1px solid rgba(184, 155, 94, 0.45);
 }
 
 .tech-row {
   display: grid;
   gap: 0.35rem;
-  padding: 1.45rem 0;
-  border-bottom: 1px solid var(--border);
+  padding: 1.55rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 @media (min-width: 720px) {
@@ -761,10 +849,10 @@ a.btn-gold:hover,
 
 .tech-row h3 {
   margin: 0;
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   font-weight: 800;
   letter-spacing: -0.025em;
-  color: var(--forest);
+  color: var(--white);
 }
 
 .tech-row .tech-meta {
@@ -773,58 +861,52 @@ a.btn-gold:hover,
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: var(--gold-deep);
+  color: var(--gold);
 }
 
 .tech-row p:not(.tech-meta) {
   margin: 0;
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.72);
   max-width: 48ch;
   font-size: 1.02rem;
 }
 
-/* Coaches — emotional center */
-.coaches-intro {
-  margin-bottom: 2rem;
+/* Coaches — intro on off-white, portraits on forest band */
+#coaches {
+  padding-bottom: 0;
 }
 
-.coach-list {
+.coaches-intro {
+  margin-bottom: 2.25rem;
+}
+
+.coaches-band {
+  background: var(--forest);
+  color: var(--white);
+  padding: clamp(2.5rem, 6vw, 4rem) 0;
+}
+
+.coach-pair {
   display: grid;
-  gap: 3rem;
+  gap: 2.75rem;
 }
 
 @media (min-width: 880px) {
-  .coach-list {
-    gap: 4rem;
+  .coach-pair {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
   }
 }
 
 .coach {
   display: grid;
-  gap: 1.25rem;
-}
-
-@media (min-width: 880px) {
-  .coach {
-    grid-template-columns: 0.95fr 1.05fr;
-    gap: 2.75rem;
-    align-items: center;
-  }
-
-  .coach.reverse {
-    grid-template-columns: 1.05fr 0.95fr;
-  }
-
-  .coach.reverse .coach-photo {
-    order: 2;
-  }
+  gap: 1.15rem;
 }
 
 .coach-photo {
   aspect-ratio: 4 / 5;
   overflow: hidden;
-  border-radius: var(--radius);
-  background: var(--sand);
+  background: var(--forest-2);
 }
 
 .coach-photo img {
@@ -840,33 +922,34 @@ a.btn-gold:hover,
 
 .coach h3 {
   margin: 0;
-  font-size: clamp(1.85rem, 3.5vw, 2.5rem);
+  font-size: clamp(1.75rem, 3.2vw, 2.35rem);
   font-weight: 800;
   letter-spacing: -0.03em;
-  color: var(--forest);
+  color: var(--white);
 }
 
 .coach .role {
-  margin: 0.3rem 0 0;
+  margin: 0.35rem 0 0;
   font-weight: 600;
-  color: var(--gold-deep);
-  font-size: 0.95rem;
+  color: var(--gold);
+  font-size: 0.98rem;
 }
 
 .creds {
   margin: 1rem 0 0;
-  padding: 0;
+  padding: 0.85rem 0 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem 0;
   max-width: 36ch;
+  border-top: 1px solid rgba(184, 155, 94, 0.55);
 }
 
 .creds li {
   font-size: 0.88rem;
   font-weight: 600;
-  color: var(--forest);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .creds li:not(:last-child)::after {
@@ -877,14 +960,16 @@ a.btn-gold:hover,
 }
 
 .coach .bio {
-  margin: 1rem 0 0;
-  color: var(--muted);
-  max-width: 48ch;
+  margin: 0.85rem 0 0;
+  color: rgba(255, 255, 255, 0.72);
+  max-width: 40ch;
+  font-size: 0.98rem;
 }
 
-/* Brands */
-.brands-block h2 {
-  margin-bottom: 1.1rem;
+/* Brands on gold band */
+.brands-block {
+  display: grid;
+  gap: 0.35rem;
 }
 
 .brands {
@@ -895,24 +980,66 @@ a.btn-gold:hover,
   flex-wrap: wrap;
   align-items: baseline;
   gap: 0.35rem 0;
-  font-size: clamp(1.15rem, 2.4vw, 1.55rem);
-  font-weight: 700;
+  font-size: clamp(1.2rem, 2.6vw, 1.7rem);
+  font-weight: 800;
   color: var(--forest);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
 .brands li:not(:last-child)::after {
   content: "·";
   margin: 0 0.75rem;
-  color: var(--gold);
+  color: rgba(26, 48, 32, 0.45);
   font-weight: 700;
 }
 
-/* Quotes */
-.quotes {
+/* Reviews — featured pull quote + grid */
+.reviews-layout {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.quote-feature {
+  margin: 0;
+  padding: 1.75rem 0 2rem;
+  border-top: 2px solid var(--forest);
+  border-bottom: 1px solid var(--border);
+}
+
+.quote-feature p {
+  margin: 0;
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  color: var(--forest);
+  max-width: 28ch;
+}
+
+@media (min-width: 800px) {
+  .quote-feature {
+    display: grid;
+    grid-template-columns: 1fr 12rem;
+    gap: 2.5rem;
+    align-items: end;
+  }
+
+  .quote-feature p {
+    max-width: 34ch;
+  }
+}
+
+.quotes-grid {
   display: grid;
   gap: 0;
   border-top: 1px solid var(--border);
+}
+
+@media (min-width: 800px) {
+  .quotes-grid {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5rem;
+  }
 }
 
 .quote {
@@ -920,55 +1047,41 @@ a.btn-gold:hover,
   padding: 1.35rem 0;
   border-bottom: 1px solid var(--border);
   display: grid;
-  gap: 0.75rem;
-}
-
-@media (min-width: 800px) {
-  .quote {
-    grid-template-columns: 1fr 11rem;
-    gap: 2rem;
-  }
+  gap: 0.85rem;
 }
 
 .quote p {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.02rem;
   line-height: 1.5;
-  max-width: 58ch;
+  max-width: 48ch;
 }
 
-.quote footer {
+.quote footer,
+.quote-feature footer {
   font-size: 0.85rem;
   color: var(--muted);
   font-style: normal;
 }
 
-.quote footer strong {
+.quote footer strong,
+.quote-feature footer strong {
   display: block;
   color: var(--forest);
   font-weight: 700;
+  font-size: 0.92rem;
 }
 
-/* Visit */
-.visit-layout {
-  display: grid;
-  gap: 1.75rem;
-}
-
-@media (min-width: 900px) {
-  .visit-layout {
-    grid-template-columns: 1.05fr 0.95fr;
-    gap: 2.5rem;
-    align-items: start;
-  }
+/* Visit — sign featured, then details */
+.visit-sign-bleed {
+  margin: 0 0 2rem;
 }
 
 .visit-photo {
-  /* Match storefront-sign.webp (~1920×765) so lettering isn’t cover-cropped */
   aspect-ratio: 2.51 / 1;
   overflow: hidden;
-  border-radius: var(--radius);
-  background: var(--sand);
+  background: #c4b8a4;
+  border: 1px solid var(--border);
 }
 
 .visit-photo img {
@@ -981,27 +1094,35 @@ a.btn-gold:hover,
 
 .visit-grid {
   display: grid;
-  gap: 1.75rem;
+  gap: 2rem;
+  padding-top: 0.25rem;
 }
 
-.visit-card {
-  padding: 0;
+@media (min-width: 720px) {
+  .visit-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
 }
 
-.visit-card h3 {
+.visit-block h3 {
   margin: 0 0 0.45rem;
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
   color: var(--forest);
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--gold);
+  display: inline-block;
 }
 
-.visit-card p,
-.visit-card li {
+.visit-block p,
+.visit-block li {
   margin: 0;
   color: var(--muted);
 }
 
-.visit-card a:not(.btn) {
+.visit-block a:not(.btn) {
   color: var(--green);
   font-weight: 600;
 }
@@ -1011,7 +1132,7 @@ a.btn-gold:hover,
 }
 
 .visit-spaced {
-  margin-top: 1.25rem !important;
+  margin-top: 1.35rem !important;
 }
 
 .hours {
