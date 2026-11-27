@@ -530,6 +530,19 @@ a.btn-gold:hover,
   max-width: 18ch;
 }
 
+.section h2::after {
+  content: "";
+  display: block;
+  width: 2.75rem;
+  height: 2px;
+  margin-top: 0.7rem;
+  background: var(--gold);
+}
+
+.section-forest h2::after {
+  background: var(--gold);
+}
+
 .section .sub {
   margin: 0 0 1.75rem;
   color: var(--muted);
@@ -654,12 +667,30 @@ a.btn-gold:hover,
 }
 
 .price-num {
-  font-size: clamp(1.85rem, 3.5vw, 2.4rem);
+  font-size: clamp(2rem, 3.8vw, 2.65rem);
   font-weight: 800;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.045em;
   color: var(--forest);
   font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
   line-height: 1;
+  white-space: nowrap;
+}
+
+.price-row .price-num {
+  position: relative;
+  padding-bottom: 0.35rem;
+}
+
+.price-row .price-num::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1.5px;
+  background: var(--gold);
+  opacity: 0.85;
 }
 
 .bundle {
@@ -806,13 +837,13 @@ a.btn-gold:hover,
 
 @media (min-width: 880px) {
   .coach {
-    grid-template-columns: 0.95fr 1.05fr;
+    grid-template-columns: 1.05fr 1fr;
     gap: 2.75rem;
     align-items: center;
   }
 
   .coach.reverse {
-    grid-template-columns: 1.05fr 0.95fr;
+    grid-template-columns: 1fr 1.05fr;
   }
 
   .coach.reverse .coach-photo {
@@ -821,21 +852,22 @@ a.btn-gold:hover,
 }
 
 .coach-photo {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 5 / 6;
   overflow: hidden;
   border-radius: var(--radius);
   background: var(--sand);
+  max-width: 28rem;
 }
 
 .coach-photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 8%;
+  object-position: center 18%;
 }
 
 .coach:first-child .coach-photo img {
-  object-position: center 12%;
+  object-position: center 16%;
 }
 
 .coach h3 {
@@ -1024,6 +1056,10 @@ a.btn-gold:hover,
   display: flex;
   gap: 1rem;
   margin-bottom: 0.25rem;
+}
+
+.hours span {
+  white-space: nowrap;
 }
 
 .hours span:first-child {
