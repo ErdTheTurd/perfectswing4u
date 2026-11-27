@@ -1039,7 +1039,13 @@ a.btn-gold:hover,
   .quotes-grid {
     grid-template-columns: 1fr 1fr;
     column-gap: 2.5rem;
+    align-items: start;
   }
+}
+
+.quotes-col {
+  display: grid;
+  gap: 0;
 }
 
 .quote {
@@ -1078,7 +1084,8 @@ a.btn-gold:hover,
 }
 
 .visit-photo {
-  aspect-ratio: 2.51 / 1;
+  /* Match tightened storefront-sign.webp (~1920×698) */
+  aspect-ratio: 2.75 / 1;
   overflow: hidden;
   background: #c4b8a4;
   border: 1px solid var(--border);

@@ -17,7 +17,7 @@
       heroTitle: "Full-hour indoor lessons on N\u00A0Mesa.",
       heroLead:
         "Climate-controlled bay at Crown Point. FlightScope on every shot, multi-angle video, Capto putting, and club fitting with Yaser Garcia and Memo Vega.",
-      heroMeta: "5864 N Mesa St, Suite A · Mon–Fri 10am–7pm · Closed weekends",
+      heroMeta: "5864 N Mesa St, Suite A · Mon\u2011Fri 10am\u20117pm · Closed weekends",
       aboutTitle: "El Paso heat stays outside. Your hour stays on the mat.",
       aboutCopy:
         "Perfect Swing 4U is an indoor academy on N Mesa at Crown Point, next to Another Broken Egg Cafe. Full-hour lessons, club fitting, and a pro shop — no tee times, no weather delays. Walk-ins welcome when a coach is free. Clubs on hand if you do not have a set.",
@@ -116,7 +116,7 @@
       heroTitle: "Clases de una hora bajo techo en N\u00A0Mesa.",
       heroLead:
         "Bahía con clima controlado en Crown Point. FlightScope en cada tiro, video multiángulo, putting Capto y ajuste de palos con Yaser Garcia y Memo Vega.",
-      heroMeta: "5864 N Mesa St, Suite A · Lun–Vie 10am–7pm · Cerrado fines de semana",
+      heroMeta: "5864 N Mesa St, Suite A · Lun\u2011Vie 10am\u20117pm · Cerrado fines de semana",
       aboutTitle: "El calor de El Paso queda afuera. Tu hora queda en el mat.",
       aboutCopy:
         "Perfect Swing 4U es una academia bajo techo en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Clases de una hora completa, ajuste de palos y pro shop — sin tee times ni demoras por clima. Aceptamos clientes sin cita si hay entrenador libre. Hay palos si no traes set.",
