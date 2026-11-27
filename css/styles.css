@@ -307,15 +307,18 @@ a:hover {
   padding: 1rem var(--gutter) 1.25rem;
   transform: translateY(-120%);
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
-  transition: transform 0.35s var(--ease), opacity 0.25s ease;
+  transition: transform 0.35s var(--ease), opacity 0.25s ease, visibility 0s linear 0.35s;
   z-index: 40;
 }
 
 .site-nav.is-open {
   transform: translateY(0);
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
+  transition: transform 0.35s var(--ease), opacity 0.25s ease, visibility 0s;
 }
 
 .site-nav ul {
@@ -354,6 +357,7 @@ a:hover {
     inset: auto;
     transform: none;
     opacity: 1;
+    visibility: visible;
     pointer-events: auto;
     background: transparent;
     border: 0;
@@ -1167,20 +1171,25 @@ section {
   font-size: 0.82rem;
 }
 
-/* Motion */
+/* Motion — visible by default; hide only after JS arms reveal */
 .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+html.js-reveal .reveal {
   opacity: 0;
   transform: translateY(18px);
   transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
 }
 
-.reveal.is-in {
+html.js-reveal .reveal.is-in {
   opacity: 1;
   transform: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .reveal {
+  html.js-reveal .reveal {
     opacity: 1;
     transform: none;
     transition: none;

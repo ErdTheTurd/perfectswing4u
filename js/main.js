@@ -330,6 +330,8 @@
       return;
     }
 
+    document.documentElement.classList.add("js-reveal");
+
     var io = new IntersectionObserver(
       function (entries) {
         entries.forEach(function (entry) {
