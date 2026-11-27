@@ -407,6 +407,13 @@ a:hover {
 .hole {
   padding: clamp(2.25rem, 5vw, 3.5rem) 0;
   border-bottom: 1px solid var(--rule);
+  scroll-margin-top: 4rem;
+}
+
+@media (max-width: 520px) {
+  .hole {
+    scroll-margin-top: 6.5rem;
+  }
 }
 
 .hole-head {

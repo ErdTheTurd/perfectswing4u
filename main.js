@@ -73,7 +73,12 @@
     var header = document.querySelector(".site-header");
     var pad = (header ? header.offsetHeight : 64) + 10;
     var top = el.getBoundingClientRect().top + window.pageYOffset - pad;
+    // Force instant jump: CSS scroll-behavior:smooth makes behavior:"auto" animate
+    var root = document.documentElement;
+    var prev = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
     window.scrollTo(0, Math.max(0, top));
+    root.style.scrollBehavior = prev;
   }
 
   document.querySelectorAll('a[href^="#"]').forEach(function (link) {
