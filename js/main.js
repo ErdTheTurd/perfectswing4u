@@ -116,7 +116,7 @@
       heroMeta: "5864 N Mesa St, Suite A · Lun–Vie 10am–7pm · Cerrado fines de semana",
       aboutTitle: "El calor de El Paso queda afuera. Tu hora queda en el mat.",
       aboutCopy:
-        "Perfect Swing 4U es una academia bajo techo en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Clases de una hora completa, ajuste de palos y pro shop — sin tee times ni demoras por clima. Sin cita previa bienvenidos si hay entrenador libre. Hay palos si no traes set.",
+        "Perfect Swing 4U es una academia bajo techo en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Clases de una hora completa, ajuste de palos y pro shop — sin tee times ni demoras por clima. Aceptamos clientes sin cita si hay entrenador libre. Hay palos si no traes set.",
       processTitle: "Cómo corre una clase",
       processSub: "Reserva en Square. Llega. Sal con una cosa clara para practicar.",
       step1t: "Reserva la hora",
@@ -124,7 +124,7 @@
         "Reserva en línea en Square, llama al (915) 449-3613, o entra sin cita previa si hay entrenador libre. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
       step2t: "Mide la pelota",
       step2d:
-        "FlightScope registra velocidad de la pelota, lanzamiento, efecto y distancia de vuelo. El video multiángulo muestra de frente y desde atrás. Capto putting usa un sensor en el putter para path, face y tempo.",
+        "FlightScope registra velocidad de la pelota, lanzamiento, efecto y distancia de vuelo. El video multiángulo muestra de frente y desde atrás. Capto putting usa un sensor en el putter para trayectoria, cara y ritmo.",
       step3t: "Lleva el cambio afuera",
       step3d:
         "Tu entrenador elige uno o dos ajustes que importan para tu swing — no una lista larga. Drills que puedes repetir en el range o en el campo.",
@@ -158,11 +158,11 @@
       tech2t: "Video multiángulo",
       tech2m: "De frente · desde atrás",
       tech2d:
-        "Dos cámaras del mismo swing. Pausa el frame, nombra el movimiento y compara el siguiente tiro para ver lo que ve el entrenador — no un tip vago de “quédate abajo.”",
+        "Dos cámaras del mismo swing. Pausa el cuadro, nombra el movimiento y compara el siguiente tiro para ver lo que ve el entrenador — no un consejo vago de “quédate abajo.”",
       tech3t: "Putting Capto",
       tech3m: "Sensor en el putter · análisis de 30 min",
       tech3d:
-        "Registra path, ángulo de face y tempo en el stroke. Yaser está certificado en Capto Putting; el análisis de putting de $75 se basa en este sensor.",
+        "Registra trayectoria, ángulo de cara y ritmo en el stroke. Yaser está certificado en Capto Putting; el análisis de putting de $75 se basa en este sensor.",
       tech4t: "Ajuste de palos",
       tech4m: "Driver · hierros · bolsa completa",
       tech4d:
