@@ -18,6 +18,9 @@
       heroLead:
         "Climate-controlled bay at Crown Point. FlightScope on every shot, multi-angle video, Capto putting, and club fitting with Yaser Garcia and Memo Vega.",
       heroMeta: "5864 N Mesa St, Suite A · Mon\u2011Fri 10am\u20117pm · Closed weekends",
+      pillar1: "Full-hour lessons",
+      pillar2: "FlightScope on every shot",
+      pillar3: "Mon\u2011Fri 10\u20117 on N\u00A0Mesa",
       aboutTitle: "El Paso heat stays outside. Your hour stays on the mat.",
       aboutCopy:
         "Perfect Swing 4U is an indoor academy on N Mesa at Crown Point, next to Another Broken Egg Cafe. Full-hour lessons, club fitting, and a pro shop — no tee times, no weather delays. Walk-ins welcome when a coach is free. Clubs on hand if you do not have a set.",
@@ -89,7 +92,7 @@
       addrLabel: "Address",
       directions: "Open in Google Maps",
       hoursLabel: "Hours",
-      monFri: "Mon–Fri",
+      monFri: "Mon\u2011Fri",
       weekend: "Sat–Sun",
       closed: "Closed",
       contactLabel: "Contact",
@@ -117,6 +120,9 @@
       heroLead:
         "Bahía con clima controlado en Crown Point. FlightScope en cada tiro, video multiángulo, putting Capto y ajuste de palos con Yaser Garcia y Memo Vega.",
       heroMeta: "5864 N Mesa St, Suite A · Lun\u2011Vie 10am\u20117pm · Cerrado fines de semana",
+      pillar1: "Clases de una hora",
+      pillar2: "FlightScope en cada tiro",
+      pillar3: "Lun\u2011Vie 10\u20117 en N\u00A0Mesa",
       aboutTitle: "El calor de El Paso queda afuera. Tu hora queda en el mat.",
       aboutCopy:
         "Perfect Swing 4U es una academia bajo techo en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Clases de una hora completa, ajuste de palos y pro shop — sin tee times ni demoras por clima. Aceptamos clientes sin cita si hay entrenador libre. Hay palos si no traes set.",
@@ -188,7 +194,7 @@
       addrLabel: "Dirección",
       directions: "Abrir en Google Maps",
       hoursLabel: "Horario",
-      monFri: "Lun–Vie",
+      monFri: "Lun\u2011Vie",
       weekend: "Sáb–Dom",
       closed: "Cerrado",
       contactLabel: "Contacto",
