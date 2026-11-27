@@ -22,11 +22,10 @@
       if (pack[key] != null) el.setAttribute("aria-label", pack[key]);
     });
 
-    var title = pack["meta.title"];
-    var desc = pack["meta.desc"];
-    if (title) document.title = title;
-    var metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc && desc) metaDesc.setAttribute("content", desc);
+    var title = lang === "es"
+      ? "Perfect Swing 4U Golf Academy | Clases bajo techo en El Paso, TX"
+      : "Perfect Swing 4U Golf Academy | Indoor Coaching in El Paso, TX";
+    document.title = title;
 
     document.querySelectorAll(".lang-btn").forEach(function (btn) {
       var active = btn.getAttribute("data-set-lang") === lang;
