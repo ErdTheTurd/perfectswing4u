@@ -17,21 +17,23 @@
       heroTitle: "Full‑hour indoor lessons on N\u00A0Mesa.",
       heroLead:
         "Climate-controlled bay at Crown Point. FlightScope numbers on every shot, multi-angle video, Capto putting, and fittings with Yaser Garcia and Memo Vega.",
-      heroMeta: "5864 N Mesa St, Suite A · Mon‑Fri 10am‑7pm · Closed weekends",
+      heroMetaAddr: "5864 N Mesa St, Suite A",
+      heroMetaHours: "Mon‑Fri 10am‑7pm",
+      heroMetaClosed: "Closed weekends",
       aboutTitle: "Heat stays outside. Your hour stays on the mat.",
       aboutCopy:
         "Indoor academy on N Mesa at Crown Point, next to Another Broken Egg Cafe. Full‑hour lessons, fittings, and a pro shop — no tee times, no weather delays. Walk in when a coach is free. Clubs here if you need a set.",
       processTitle: "Book. Hit. Leave with one clear fix.",
-      processSub: "Square booking. One hour. Something you can practice tomorrow.",
+      processSub: "Book on Square. One hour. A fix you can practice tomorrow.",
       step1t: "Book on Square",
       step1d:
-        "Online, call (915) 449-3613, or walk in if a coach is free. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
+        "Book online, call (915) 449-3613, or walk in if a coach is free. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
       step2t: "Read the numbers",
       step2d:
         "FlightScope tracks ball speed, launch, spin, and carry on every shot. Face-on and down-the-line video. Capto on the putter for path, face, and tempo.",
       step3t: "Leave with one fix",
       step3d:
-        "One or two adjustments that matter for your swing — not a laundry list. Drills you can repeat at the range or on the course.",
+        "One or two adjustments that matter for your swing, not a long list. Drills you can repeat at the range or on the course.",
       priceTitle: "Clear prices. Full sessions.",
       priceSub: "One coach. FlightScope and video in the lesson hour. Book on Square.",
       pPrivate: "Private Lesson",
@@ -95,8 +97,7 @@
       bookBody:
         "Square only. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
       ctaTitle: "Book on Square. Open Mon‑Fri 10am‑7pm.",
-      ctaCopy:
-        "Call (915) 449-3613, or walk in if a coach is free. Bring clubs — or use ours.",
+      ctaCopy: "Bring your clubs, or use ours.",
       footerTag: "Indoor golf academy · El Paso, TX",
       follow: "Follow",
       rights: "© Perfect Swing 4U Golf Academy",
@@ -114,21 +115,23 @@
       heroTitle: "Clases de una hora bajo techo en N\u00A0Mesa.",
       heroLead:
         "Bahía con clima controlado en Crown Point. Números FlightScope en cada golpe, video multiángulo, putting Capto y ajuste de palos con Yaser Garcia y Memo Vega.",
-      heroMeta: "5864 N Mesa St, Suite A · Lun‑Vie 10am‑7pm · Cerrado fines de semana",
+      heroMetaAddr: "5864 N Mesa St, Suite A",
+      heroMetaHours: "Lun‑Vie 10am‑7pm",
+      heroMetaClosed: "Cerrado fines de semana",
       aboutTitle: "El calor se queda fuera. Tu hora, en el tapete.",
       aboutCopy:
-        "Academia bajo techo en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Lecciones de una hora completa, ajuste de palos y tienda de golf — sin horarios de salida ni demoras por clima. Entra si hay entrenador libre. Hay palos si necesitas un set.",
+        "Academia bajo techo en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Lecciones de una hora completa, ajuste de palos y tienda de golf — sin horarios de salida ni demoras por clima. Entra si hay entrenador libre. Hay palos si necesitas un juego.",
       processTitle: "Reserva. Golpea. Sal con un ajuste claro.",
-      processSub: "Reserva en Square. Una hora. Algo que practicar mañana.",
+      processSub: "Reserva en Square. Una hora. Un ajuste que puedes practicar mañana.",
       step1t: "Reserva en Square",
       step1d:
-        "En línea, llama al (915) 449-3613, o entra si hay entrenador libre. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
+        "Reserva en línea, llama al (915) 449-3613, o entra si hay entrenador libre. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
       step2t: "Lee los números",
       step2d:
         "FlightScope registra velocidad de la pelota, lanzamiento, efecto y distancia de vuelo (carry) en cada golpe. Video de frente y desde atrás. Capto en el putter para trayectoria, cara y ritmo.",
       step3t: "Sal con un ajuste",
       step3d:
-        "Uno o dos ajustes que importan para tu swing — no una lista larga. Ejercicios que puedes repetir en el campo de práctica o en el campo.",
+        "Uno o dos ajustes que importan para tu swing, no una lista larga. Ejercicios que puedes repetir en el campo de práctica o en el campo.",
       priceTitle: "Precios claros. Sesiones completas.",
       priceSub: "Un entrenador. FlightScope y video en la hora de lección. Reserva en Square.",
       pPrivate: "Clase privada",
@@ -192,8 +195,7 @@
       bookBody:
         "Solo Square. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
       ctaTitle: "Reserva en Square. Abierto Lun‑Vie 10am‑7pm.",
-      ctaCopy:
-        "Llama al (915) 449-3613, o entra si hay entrenador libre. Trae palos — o usa los nuestros.",
+      ctaCopy: "Trae tus palos, o usa los nuestros.",
       footerTag: "Academia de golf bajo techo · El Paso, TX",
       follow: "Síguenos",
       rights: "© Perfect Swing 4U Golf Academy",
@@ -201,8 +203,8 @@
   };
 
   var yaserBio = {
-    en: "Thirteen-plus years competitive. Full swings on FlightScope and video; Capto putting and TPI-informed movement. Juniors from first grip through high school.",
-    es: "Más de trece años competitivos. Swings completos con FlightScope y video; putting Capto y movimiento con TPI. Jóvenes desde el primer grip hasta preparatoria.",
+    en: "Thirteen-plus years of competitive golf. Full swings on FlightScope and video; Capto putting and TPI-informed movement. Juniors from first grip through high school.",
+    es: "Más de trece años de golf competitivo. Swings completos con FlightScope y video; putting Capto y movimiento con TPI. Jóvenes desde el primer grip hasta preparatoria.",
   };
 
   var memoBio = {
