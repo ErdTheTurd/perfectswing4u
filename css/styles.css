@@ -499,8 +499,8 @@ a.btn-gold:hover,
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /* Bias up/right so “4U” isn’t clipped at the photo edge */
-  object-position: 78% 20%;
+  /* Bias up/right so “4U” has room inside the frame */
+  object-position: right 12% top 18%;
 }
 
 /* Sections */
