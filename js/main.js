@@ -82,7 +82,7 @@
       reviewsTitle: "From golfers who booked here",
       reviewsSub: "As posted on perfectswing4u.org — unedited.",
       visitTitle: "Find us on N Mesa",
-      visitSub: "Crown Point, next to Another Broken Egg Cafe. Mon‑Fri 10am‑7pm.",
+      visitSub: "Crown Point, next to Another Broken Egg Cafe.",
       addrLabel: "Address",
       directions: "Open in Google Maps",
       hoursLabel: "Hours",
@@ -117,18 +117,18 @@
       heroMeta: "5864 N Mesa St, Suite A · Lun‑Vie 10am‑7pm · Cerrado fines de semana",
       aboutTitle: "El calor se queda fuera. Tu hora, en el mat.",
       aboutCopy:
-        "Academia indoor en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Lecciones de una hora completa, ajuste de palos y tienda de golf — sin horarios de salida ni demoras por clima. Entra si hay coach libre. Hay palos si necesitas un set.",
+        "Academia bajo techo en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Lecciones de una hora completa, ajuste de palos y tienda de golf — sin horarios de salida ni demoras por clima. Entra si hay entrenador libre. Hay palos si necesitas un set.",
       processTitle: "Reserva. Golpea. Sal con un ajuste claro.",
       processSub: "Reserva en Square. Una hora. Algo que practicar mañana.",
       step1t: "Reserva en Square",
       step1d:
-        "En línea, llama al (915) 449-3613, o entra si hay coach libre. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
+        "En línea, llama al (915) 449-3613, o entra si hay entrenador libre. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
       step2t: "Lee los números",
       step2d:
         "FlightScope registra velocidad de la pelota, lanzamiento, efecto y carry en cada golpe. Video de frente y desde atrás. Capto en el putter para trayectoria, cara y ritmo.",
       step3t: "Sal con un ajuste",
       step3d:
-        "Uno o dos ajustes que importan para tu swing — no una lista larga. Drills que puedes repetir en el range o en el campo.",
+        "Uno o dos ajustes que importan para tu swing — no una lista larga. Ejercicios que puedes repetir en el campo de práctica o en el campo.",
       priceTitle: "Precios claros. Sesiones completas.",
       priceSub: "Un coach. FlightScope y video en la hora de lección. Reserva en Square.",
       pPrivate: "Clase privada",
@@ -179,7 +179,7 @@
       reviewsTitle: "De golfistas que reservaron aquí",
       reviewsSub: "Como en perfectswing4u.org — sin editar.",
       visitTitle: "Encuéntranos en N Mesa",
-      visitSub: "Crown Point, junto a Another Broken Egg Cafe. Lun‑Vie 10am‑7pm.",
+      visitSub: "Crown Point, junto a Another Broken Egg Cafe.",
       addrLabel: "Dirección",
       directions: "Abrir en Google Maps",
       hoursLabel: "Horario",
@@ -193,7 +193,7 @@
         "Solo Square. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
       ctaTitle: "Reserva en Square. Abierto Lun‑Vie 10am‑7pm.",
       ctaCopy:
-        "Llama al (915) 449-3613, o entra si hay coach libre. Trae palos — o usa los nuestros.",
+        "Llama al (915) 449-3613, o entra si hay entrenador libre. Trae palos — o usa los nuestros.",
       footerTag: "Academia de golf bajo techo · El Paso, TX",
       follow: "Síguenos",
       rights: "© Perfect Swing 4U Golf Academy",

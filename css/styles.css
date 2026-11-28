@@ -480,13 +480,27 @@ a.btn-gold:hover,
   aspect-ratio: 5 / 4;
   background: var(--sand);
   overflow: hidden;
+  max-width: 100%;
+}
+
+@media (min-width: 900px) {
+  .hero-photo {
+    /* Keep photo inside the hero frame — gutter on the right, room for “4U” */
+    margin: clamp(1.25rem, 3vw, 2rem) var(--gutter) clamp(1.25rem, 3vw, 2rem) 0;
+    border-radius: var(--radius);
+    align-self: center;
+    width: auto;
+    max-height: calc(100% - 2.5rem);
+    aspect-ratio: 5 / 4;
+  }
 }
 
 .hero-photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 28%;
+  /* Bias up/right so “4U” isn’t clipped at the photo edge */
+  object-position: 78% 20%;
 }
 
 /* Sections */
@@ -679,7 +693,7 @@ a.btn-gold:hover,
   font-size: clamp(2rem, 3.8vw, 2.65rem);
   font-weight: 800;
   letter-spacing: -0.045em;
-  color: var(--gold-deep);
+  color: var(--forest);
   font-variant-numeric: tabular-nums;
   font-feature-settings: "tnum" 1, "lnum" 1;
   line-height: 1;
@@ -896,7 +910,7 @@ a.btn-gold:hover,
 .coach .role {
   margin: 0.3rem 0 0;
   font-weight: 600;
-  color: var(--gold-deep);
+  color: var(--forest);
   font-size: 0.95rem;
 }
 
@@ -1080,8 +1094,22 @@ a.btn-gold:hover,
   margin-bottom: 0.25rem;
 }
 
-.hours span {
+.hours span,
+.nowrap {
   white-space: nowrap;
+}
+
+.visit-sub {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.65rem;
+}
+
+.visit-hours {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.65rem;
 }
 
 .hours span:first-child {
