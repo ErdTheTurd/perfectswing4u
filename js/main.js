@@ -97,7 +97,8 @@
       bookBody:
         "Square only. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
       ctaTitle: "Book on Square. Open Mon‑Fri 10am‑7pm.",
-      ctaCopy: "Bring your clubs, or use ours.",
+      ctaCopy:
+        "Call (915) 449-3613, or walk in if a coach is free. Bring your clubs, or use ours.",
       footerTag: "Indoor golf academy · El Paso, TX",
       follow: "Follow",
       rights: "© Perfect Swing 4U Golf Academy",
@@ -195,7 +196,8 @@
       bookBody:
         "Solo Square. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
       ctaTitle: "Reserva en Square. Abierto Lun‑Vie 10am‑7pm.",
-      ctaCopy: "Trae tus palos, o usa los nuestros.",
+      ctaCopy:
+        "Llama al (915) 449-3613 o entra si hay entrenador libre. Trae tus palos o usa los nuestros.",
       footerTag: "Academia de golf bajo techo · El Paso, TX",
       follow: "Síguenos",
       rights: "© Perfect Swing 4U Golf Academy",
