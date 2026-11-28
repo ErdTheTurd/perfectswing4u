@@ -16,24 +16,24 @@
       ctaMap: "Directions",
       heroTitle: "Full‑hour indoor lessons on N\u00A0Mesa.",
       heroLead:
-        "You hit in a climate-controlled bay at Crown Point with Yaser Garcia or Memo Vega. FlightScope launch data on every shot, multi-angle video, Capto putting, and club fittings.",
+        "Climate-controlled bay at Crown Point. FlightScope numbers on every shot, multi-angle video, Capto putting, and fittings with Yaser Garcia and Memo Vega.",
       heroMeta: "5864 N Mesa St, Suite A · Mon‑Fri 10am‑7pm · Closed weekends",
-      aboutTitle: "The heat stays outside. Your hour stays on the mat.",
+      aboutTitle: "Heat stays outside. Your hour stays on the mat.",
       aboutCopy:
-        "You train indoors on N Mesa at Crown Point, next to Another Broken Egg Cafe. Full‑hour lessons, fittings, and a pro shop. No tee times. No weather delays. Walk in when a coach is free. Clubs here if you need a set.",
+        "Indoor academy on N Mesa at Crown Point, next to Another Broken Egg Cafe. Full‑hour lessons, fittings, and a pro shop — no tee times, no weather delays. Walk in when a coach is free. Clubs here if you need a set.",
       processTitle: "Book. Hit. Leave with one clear fix.",
-      processSub: "One hour on the bay after you book on Square. You leave with a fix you can practice tomorrow.",
-      step1t: "Reserve your hour",
+      processSub: "Square booking. One hour. Something you can practice tomorrow.",
+      step1t: "Book on Square",
       step1d:
-        "Book online on Square, call (915) 449-3613, or walk in if a coach is free. Reschedule with 24 hours’ notice. No-shows forfeit 50%.",
-      step2t: "Read your launch data",
+        "Online, call (915) 449-3613, or walk in if a coach is free. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
+      step2t: "Read the numbers",
       step2d:
-        "FlightScope tracks ball speed, launch, spin, and carry on every shot. Face-on and down-the-line video. Capto on the putter reads path, face, and tempo.",
-      step3t: "Leave with one fix and a drill to groove it",
+        "FlightScope tracks ball speed, launch, spin, and carry on every shot. Face-on and down-the-line video. Capto on the putter for path, face, and tempo.",
+      step3t: "Leave with one fix",
       step3d:
-        "You walk out with one or two adjustments that matter for your swing. Not a long list. Practice you can repeat at the range or on the course.",
+        "One or two adjustments that matter for your swing — not a laundry list. Drills you can repeat at the range or on the course.",
       priceTitle: "Clear prices. Full sessions.",
-      priceSub: "One coach with you. FlightScope and video in the lesson hour. Book on Square.",
+      priceSub: "One coach. FlightScope and video in the lesson hour. Book on Square.",
       pPrivate: "Private Lesson",
       pPrivateDesc: "60 min · FlightScope & video",
       pJunior: "Junior Lesson",
@@ -50,27 +50,27 @@
       pBagDesc: "Driver through wedges",
       pBundle: "Swing + Putting Bundle",
       pBundleDesc:
-        "Three 60-minute swing lessons plus two 30-minute Capto putting sessions. Five visits, one plan.",
+        "Three 60-minute swing lessons plus two 30-minute Capto putting sessions — five visits, one plan.",
       policy:
         "Reschedule with 24 hours’ notice. No-shows forfeit 50% of the lesson fee. Booking through Square only.",
       techTitle: "What’s on the bay",
-      techSub: "Each tool shows something different about your ball and your club.",
+      techSub: "FlightScope, video, Capto, fittings — what each one is for.",
       tech1t: "FlightScope",
       tech1m: "Launch monitor · every full swing",
       tech1d:
-        "Ball speed, launch, spin, and carry on each shot. Your coach points to the numbers behind a curve or a thin strike, then you hit again and check the change.",
+        "Ball speed, launch, spin, and carry on each shot. Your coach points to the numbers that explain a slice, a thin strike, or lost distance — then you hit again and check the change.",
       tech2t: "Multi-angle video",
       tech2m: "Face-on · down-the-line",
       tech2d:
-        "Two camera views of the same swing. You pause the frame, name the move, and compare the next take so you see what the coach sees.",
+        "Two camera views of the same swing. Pause the frame, name the move, compare the next take — so you see what the coach sees.",
       tech3t: "Capto putting",
       tech3m: "Sensor on the putter · 30-min analysis",
       tech3d:
-        "Path, face angle, and tempo through the stroke. Yaser is Capto Putting certified. The $75 putting analysis is built around this sensor.",
+        "Path, face angle, and tempo through the stroke. Yaser is Capto Putting certified; the $75 putting analysis is built around this sensor.",
       tech4t: "Club fitting",
       tech4m: "Driver · irons · full bag",
       tech4d:
-        "Head, shaft, loft, flex, length, lie, and grip matched to your FlightScope numbers. Driver $60, irons $80, full bag $160. Memo specializes in fittings.",
+        "Head, shaft, loft, flex, length, lie, and grip matched to your FlightScope numbers. Driver $60, irons $80, full bag $160 — Memo specializes in fittings.",
       coachTitle: "Your coaches",
       coachSub:
         "PGA, TPI, Capto, ADM. Beginners through high school. Women, military, and veterans welcome.",
@@ -80,7 +80,7 @@
       memoCred: "Club fitting specialist",
       brandsTitle: "Pro shop brands",
       reviewsTitle: "From golfers who booked here",
-      reviewsSub: "Posted on perfectswing4u.org. Shown here without edits.",
+      reviewsSub: "As posted on perfectswing4u.org — unedited.",
       visitTitle: "Find us on N Mesa",
       visitSub: "Crown Point, next to Another Broken Egg Cafe.",
       addrLabel: "Address",
@@ -93,10 +93,10 @@
       contactLabel: "Contact",
       bookLabel: "Booking",
       bookBody:
-        "Square only. Reschedule with 24 hours’ notice. No-shows forfeit 50%.",
-      ctaTitle: "Book your hour on Square. Open Mon‑Fri 10am‑7pm.",
+        "Square only. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
+      ctaTitle: "Book on Square. Open Mon‑Fri 10am‑7pm.",
       ctaCopy:
-        "Call (915) 449-3613, or walk in if a coach is free. Bring your clubs, or use ours.",
+        "Call (915) 449-3613, or walk in if a coach is free. Bring clubs — or use ours.",
       footerTag: "Indoor golf academy · El Paso, TX",
       follow: "Follow",
       rights: "© Perfect Swing 4U Golf Academy",
@@ -113,24 +113,24 @@
       ctaMap: "Cómo llegar",
       heroTitle: "Clases de una hora bajo techo en N\u00A0Mesa.",
       heroLead:
-        "Golpeas en una bahía con clima controlado en Crown Point con Yaser Garcia o Memo Vega. Datos FlightScope en cada golpe, video multiángulo, putting Capto y ajuste de palos.",
+        "Bahía con clima controlado en Crown Point. Números FlightScope en cada golpe, video multiángulo, putting Capto y ajuste de palos con Yaser Garcia y Memo Vega.",
       heroMeta: "5864 N Mesa St, Suite A · Lun‑Vie 10am‑7pm · Cerrado fines de semana",
-      aboutTitle: "El calor se queda fuera. Tu hora se queda en el tapete.",
+      aboutTitle: "El calor se queda fuera. Tu hora, en el tapete.",
       aboutCopy:
-        "Entrenas bajo techo en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Clases de una hora completa, ajuste de palos y tienda de golf. Sin horarios de salida. Sin demoras por clima. Entra si hay entrenador libre. Hay palos si necesitas un set.",
+        "Academia bajo techo en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Lecciones de una hora completa, ajuste de palos y tienda de golf — sin horarios de salida ni demoras por clima. Entra si hay entrenador libre. Hay palos si necesitas un set.",
       processTitle: "Reserva. Golpea. Sal con un ajuste claro.",
-      processSub: "Una hora en la bahía después de reservar en Square. Sales con un ajuste para practicar mañana.",
-      step1t: "Reserva tu hora",
+      processSub: "Reserva en Square. Una hora. Algo que practicar mañana.",
+      step1t: "Reserva en Square",
       step1d:
-        "Reserva en línea en Square, llama al (915) 449-3613, o entra si hay entrenador libre. Reprograma con 24 horas de aviso. Si faltas sin aviso pierdes el 50%.",
-      step2t: "Lee tus datos de lanzamiento",
+        "En línea, llama al (915) 449-3613, o entra si hay entrenador libre. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
+      step2t: "Lee los números",
       step2d:
-        "FlightScope registra velocidad de la pelota, lanzamiento, efecto y distancia de vuelo (carry) en cada golpe. Video de frente y desde atrás. Capto en el putter lee trayectoria, cara y ritmo.",
-      step3t: "Sal con un ajuste y un ejercicio para fijarlo",
+        "FlightScope registra velocidad de la pelota, lanzamiento, efecto y distancia de vuelo (carry) en cada golpe. Video de frente y desde atrás. Capto en el putter para trayectoria, cara y ritmo.",
+      step3t: "Sal con un ajuste",
       step3d:
-        "Sales con uno o dos ajustes que importan para tu swing. No una lista larga. Ejercicios que puedes repetir en el campo de práctica o en el campo.",
+        "Uno o dos ajustes que importan para tu swing — no una lista larga. Ejercicios que puedes repetir en el campo de práctica o en el campo.",
       priceTitle: "Precios claros. Sesiones completas.",
-      priceSub: "Un entrenador contigo. FlightScope y video en la hora de clase. Reserva en Square.",
+      priceSub: "Un entrenador. FlightScope y video en la hora de lección. Reserva en Square.",
       pPrivate: "Clase privada",
       pPrivateDesc: "60 min · FlightScope y video",
       pJunior: "Clase junior",
@@ -147,27 +147,27 @@
       pBagDesc: "Driver a wedges",
       pBundle: "Paquete swing + putting",
       pBundleDesc:
-        "Tres clases de swing de 60 minutos más dos sesiones Capto de 30 minutos. Cinco visitas, un plan.",
+        "Tres clases de swing de 60 minutos más dos sesiones Capto de 30 minutos — cinco visitas, un plan.",
       policy:
         "Reprograma con 24 horas de aviso. Si faltas sin aviso pierdes el 50% de la clase. Reserva solo por Square.",
       techTitle: "Lo que hay en la bahía",
-      techSub: "Cada herramienta muestra algo distinto de tu pelota y tu palo.",
+      techSub: "FlightScope, video, Capto, ajuste de palos — para qué sirve cada uno.",
       tech1t: "FlightScope",
       tech1m: "Monitor de lanzamiento · cada swing completo",
       tech1d:
-        "Velocidad de la pelota, lanzamiento, efecto y distancia de vuelo (carry) en cada golpe. Tu entrenador señala los números detrás de una curva o un golpe delgado; luego golpeas de nuevo y revisas el cambio.",
+        "Velocidad de la pelota, lanzamiento, efecto y distancia de vuelo (carry) en cada golpe. Tu entrenador señala los números que explican un slice, un golpe delgado o distancia perdida — luego golpeas de nuevo y revisas el cambio.",
       tech2t: "Video multiángulo",
       tech2m: "De frente · desde atrás",
       tech2d:
-        "Dos cámaras del mismo swing. Pausas el cuadro, nombras el movimiento y comparas el siguiente tiro para ver lo que ve el entrenador.",
+        "Dos cámaras del mismo swing. Pausa el cuadro, nombra el movimiento, compara el siguiente tiro — para ver lo que ve el entrenador.",
       tech3t: "Putting Capto",
       tech3m: "Sensor en el putter · análisis de 30 min",
       tech3d:
-        "Trayectoria, ángulo de cara y ritmo en el golpe. Yaser está certificado en Capto Putting. El análisis de $75 se basa en este sensor.",
+        "Trayectoria, ángulo de cara y ritmo en el golpe. Yaser está certificado en Capto Putting; el análisis de $75 se basa en este sensor.",
       tech4t: "Ajuste de palos",
       tech4m: "Driver · hierros · bolsa completa",
       tech4d:
-        "Cabeza, varilla, loft, flexibilidad, largo, lie y grip alineados a tus números de FlightScope. Driver $60, hierros $80, bolsa completa $160. Memo se especializa en ajuste de palos.",
+        "Cabeza, varilla, loft, flexibilidad, largo, lie y grip alineados a tus números de FlightScope. Driver $60, hierros $80, bolsa completa $160 — Memo se especializa en ajuste de palos.",
       coachTitle: "Tus entrenadores",
       coachSub:
         "PGA, TPI, Capto, ADM. Desde principiantes hasta preparatoria. Mujeres, militares y veteranos bienvenidos.",
@@ -177,7 +177,7 @@
       memoCred: "Especialista en ajuste de palos",
       brandsTitle: "Marcas de la tienda de golf",
       reviewsTitle: "De golfistas que reservaron aquí",
-      reviewsSub: "Publicado en perfectswing4u.org. Aquí sin editar.",
+      reviewsSub: "Como en perfectswing4u.org — sin editar.",
       visitTitle: "Encuéntranos en N Mesa",
       visitSub: "Crown Point, junto a Another Broken Egg Cafe.",
       addrLabel: "Dirección",
@@ -190,10 +190,10 @@
       contactLabel: "Contacto",
       bookLabel: "Reservas",
       bookBody:
-        "Solo Square. Reprograma con 24 horas de aviso. Si faltas sin aviso pierdes el 50%.",
-      ctaTitle: "Reserva tu hora en Square. Abierto Lun‑Vie 10am‑7pm.",
+        "Solo Square. Reprograma con 24 horas de aviso; si faltas sin aviso pierdes el 50%.",
+      ctaTitle: "Reserva en Square. Abierto Lun‑Vie 10am‑7pm.",
       ctaCopy:
-        "Llama al (915) 449-3613, o entra si hay entrenador libre. Trae tus palos, o usa los nuestros.",
+        "Llama al (915) 449-3613, o entra si hay entrenador libre. Trae palos — o usa los nuestros.",
       footerTag: "Academia de golf bajo techo · El Paso, TX",
       follow: "Síguenos",
       rights: "© Perfect Swing 4U Golf Academy",
@@ -201,13 +201,13 @@
   };
 
   var yaserBio = {
-    en: "Thirteen-plus years of competitive golf. On the bay he coaches full swings with FlightScope and video, Capto putting, and TPI-informed movement. Juniors from first grip through high school.",
-    es: "Más de trece años de golf competitivo. En la bahía entrena swings completos con FlightScope y video, putting Capto y movimiento con TPI. Jóvenes desde el primer grip hasta preparatoria.",
+    en: "Thirteen-plus years competitive. Full swings on FlightScope and video; Capto putting and TPI-informed movement. Juniors from first grip through high school.",
+    es: "Más de trece años competitivos. Swings completos con FlightScope y video; putting Capto y movimiento con TPI. Jóvenes desde el primer grip hasta preparatoria.",
   };
 
   var memoBio = {
-    en: "ADM certified. He runs fittings and private lessons with clear talk and visualization, from beginners through competitive high school. Driver, iron, and full-bag fittings on FlightScope numbers.",
-    es: "Certificado ADM. Da ajuste de palos y clases privadas con explicación clara y visualización, desde principiantes hasta preparatoria competitiva. Ajustes de driver, hierros y bolsa completa con números FlightScope.",
+    en: "ADM certified. Runs fittings and private lessons with clear talk and visualization — beginners through competitive high school. Driver, iron, and full-bag fittings on FlightScope numbers.",
+    es: "Certificado ADM. Hace ajuste de palos y clases privadas con conversación clara y visualización — desde principiantes hasta preparatoria competitiva. Ajustes de driver, hierros y bolsa completa con números FlightScope.",
   };
 
   function applyLang(lang) {
