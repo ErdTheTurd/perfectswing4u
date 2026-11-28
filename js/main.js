@@ -29,7 +29,7 @@
       step2t: "Read the numbers",
       step2d:
         "FlightScope tracks ball speed, launch, spin, and carry on every shot. Face-on and down-the-line video. Capto on the putter for path, face, and tempo.",
-      step3t: "Own the change",
+      step3t: "Leave with one fix",
       step3d:
         "One or two adjustments that matter for your swing — not a laundry list. Drills you can repeat at the range or on the course.",
       priceTitle: "Clear prices. Full sessions.",
@@ -73,7 +73,7 @@
         "Head, shaft, loft, flex, length, lie, and grip matched to your FlightScope numbers. Driver $60, irons $80, full bag $160 — Memo specializes in fittings.",
       coachTitle: "Your coaches",
       coachSub:
-        "PGA, TPI, Capto, ADM. Beginners through high school. Military and veterans welcome.",
+        "PGA, TPI, Capto, ADM. Beginners through high school. Women, military, and veterans welcome.",
       yaserRole: "Head coach & founder",
       yaserTour: "U.S. Kids Golf tour director, El Paso chapter.",
       memoRole: "Instructor & club fitting specialist",
@@ -93,7 +93,7 @@
       contactLabel: "Contact",
       bookLabel: "Booking",
       bookBody:
-        "Square only. Reschedule with 24 hours’ notice; missed appointments forfeit 50%.",
+        "Square only. Reschedule with 24 hours’ notice; no-shows forfeit 50%.",
       ctaTitle: "Book on Square. Open Mon‑Fri 10am‑7pm.",
       ctaCopy:
         "Call (915) 449-3613, or walk in if a coach is free. Bring clubs — or use ours.",
@@ -113,11 +113,11 @@
       ctaMap: "Cómo llegar",
       heroTitle: "Clases de una hora bajo techo en N\u00A0Mesa.",
       heroLead:
-        "Bahía con clima controlado en Crown Point. Números FlightScope en cada golpe, video multiángulo, putting Capto y fittings con Yaser Garcia y Memo Vega.",
+        "Bahía con clima controlado en Crown Point. Números FlightScope en cada golpe, video multiángulo, putting Capto y ajuste de palos con Yaser Garcia y Memo Vega.",
       heroMeta: "5864 N Mesa St, Suite A · Lun‑Vie 10am‑7pm · Cerrado fines de semana",
       aboutTitle: "El calor se queda fuera. Tu hora, en el mat.",
       aboutCopy:
-        "Academia indoor en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Lecciones de una hora completa, fittings y pro shop — sin tee times ni clima. Entra si hay coach libre. Hay palos si necesitas un set.",
+        "Academia indoor en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Lecciones de una hora completa, ajuste de palos y tienda de golf — sin horarios de salida ni demoras por clima. Entra si hay coach libre. Hay palos si necesitas un set.",
       processTitle: "Reserva. Golpea. Sal con un ajuste claro.",
       processSub: "Reserva en Square. Una hora. Algo que practicar mañana.",
       step1t: "Reserva en Square",
@@ -126,7 +126,7 @@
       step2t: "Lee los números",
       step2d:
         "FlightScope registra velocidad de la pelota, lanzamiento, efecto y carry en cada golpe. Video de frente y desde atrás. Capto en el putter para trayectoria, cara y ritmo.",
-      step3t: "Haz tuyo el cambio",
+      step3t: "Sal con un ajuste",
       step3d:
         "Uno o dos ajustes que importan para tu swing — no una lista larga. Drills que puedes repetir en el range o en el campo.",
       priceTitle: "Precios claros. Sesiones completas.",
@@ -151,7 +151,7 @@
       policy:
         "Reprograma con 24 horas de aviso. Si faltas sin aviso pierdes el 50% de la clase. Reserva solo por Square.",
       techTitle: "Lo que hay en la bahía",
-      techSub: "FlightScope, video, Capto, fittings — para qué sirve cada uno.",
+      techSub: "FlightScope, video, Capto, ajuste de palos — para qué sirve cada uno.",
       tech1t: "FlightScope",
       tech1m: "Monitor de launch · cada swing completo",
       tech1d:
@@ -167,15 +167,15 @@
       tech4t: "Ajuste de palos",
       tech4m: "Driver · hierros · bolsa completa",
       tech4d:
-        "Cabeza, shaft, loft, flex, largo, lie y grip alineados a tus números de FlightScope. Driver $60, hierros $80, bolsa completa $160 — Memo se especializa en fittings.",
+        "Cabeza, shaft, loft, flex, largo, lie y grip alineados a tus números de FlightScope. Driver $60, hierros $80, bolsa completa $160 — Memo se especializa en ajuste de palos.",
       coachTitle: "Tus coaches",
       coachSub:
-        "PGA, TPI, Capto, ADM. Desde principiantes hasta preparatoria. Militar y veteranos bienvenidos.",
+        "PGA, TPI, Capto, ADM. Desde principiantes hasta preparatoria. Mujeres, militares y veteranos bienvenidos.",
       yaserRole: "Entrenador principal y fundador",
       yaserTour: "Director de tour U.S. Kids Golf, capítulo El Paso.",
       memoRole: "Instructor y especialista en ajuste de palos",
       memoCred: "Especialista en ajuste de palos",
-      brandsTitle: "Marcas del pro shop",
+      brandsTitle: "Marcas de la tienda de golf",
       reviewsTitle: "De golfistas que reservaron aquí",
       reviewsSub: "Como en perfectswing4u.org — sin editar.",
       visitTitle: "Encuéntranos en N Mesa",
@@ -207,7 +207,7 @@
 
   var memoBio = {
     en: "ADM certified. Runs fittings and private lessons with clear talk and visualization — beginners through competitive high school. Driver, iron, and full-bag fittings on FlightScope numbers.",
-    es: "Certificado ADM. Hace fittings y clases privadas con conversación clara y visualización — desde principiantes hasta preparatoria competitiva. Ajustes de driver, hierros y bolsa completa con números FlightScope.",
+    es: "Certificado ADM. Hace ajuste de palos y clases privadas con conversación clara y visualización — desde principiantes hasta preparatoria competitiva. Ajustes de driver, hierros y bolsa completa con números FlightScope.",
   };
 
   function applyLang(lang) {
