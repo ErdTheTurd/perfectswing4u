@@ -115,7 +115,7 @@
       heroLead:
         "Golpeas en una bahía con clima controlado en Crown Point con Yaser Garcia o Memo Vega. Datos FlightScope en cada golpe, video multiángulo, putting Capto y ajuste de palos.",
       heroMeta: "5864 N Mesa St, Suite A · Lun‑Vie 10am‑7pm · Cerrado fines de semana",
-      aboutTitle: "El calor se queda fuera. Tu hora se queda en el mat.",
+      aboutTitle: "El calor se queda fuera. Tu hora se queda en el tapete.",
       aboutCopy:
         "Entrenas bajo techo en N Mesa en Crown Point, junto a Another Broken Egg Cafe. Clases de una hora completa, ajuste de palos y tienda de golf. Sin horarios de salida. Sin demoras por clima. Entra si hay entrenador libre. Hay palos si necesitas un set.",
       processTitle: "Reserva. Golpea. Sal con un ajuste claro.",
