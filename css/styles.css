@@ -37,11 +37,12 @@
 
 :root {
   --white: #ffffff;
-  --off: #f6f4f0;
-  --sand: #ebe6dc;
-  --border: #e0dbd3;
+  --off: #f3ebe0;
+  --cream: #f7f0e6;
+  --sand: #e6dccf;
+  --border: #d4c9b8;
   --text: #0d0d0d;
-  --muted: #5c5c56;
+  --muted: #5a5348;
   --forest: #1a3020;
   --forest-2: #243d2a;
   --green: #2e7d46;
@@ -122,14 +123,25 @@ a:hover {
   margin-inline: auto;
 }
 
-/* Header */
+/* Header — cream bar + strong forest rule + gold accent (logo has black detail) */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 50;
   height: var(--header-h);
-  background: var(--off);
-  border-bottom: 1px solid var(--border);
+  background: var(--cream);
+  border-bottom: 4px solid var(--forest);
+  /* ::after gold accent sits on the forest rule */
+}
+
+.site-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--gold);
 }
 
 .header-inner {
@@ -148,11 +160,11 @@ a:hover {
   font-weight: 700;
   font-size: 0.98rem;
   letter-spacing: -0.02em;
-  color: var(--text);
+  color: var(--forest);
 }
 
 .brand:hover {
-  color: var(--text);
+  color: var(--gold-deep);
 }
 
 .brand img {
@@ -209,11 +221,11 @@ a:hover {
   width: 2.4rem;
   height: 2.4rem;
   border: 1px solid var(--border);
-  background: var(--white);
+  background: var(--sand);
   border-radius: var(--radius);
   cursor: pointer;
   padding: 0;
-  color: var(--text);
+  color: var(--forest);
 }
 
 .nav-toggle svg {
@@ -296,7 +308,7 @@ a.btn-gold:hover,
 .site-nav {
   position: fixed;
   inset: var(--header-h) 0 auto 0;
-  background: var(--white);
+  background: var(--cream);
   border-bottom: 1px solid var(--border);
   padding: 0.75rem var(--gutter) 1.1rem;
   visibility: hidden;
@@ -385,9 +397,9 @@ a.btn-gold:hover,
   }
 }
 
-/* Hero — large H1, normal brand mark, storefront photo */
+/* Hero — split layout: sand text panel + storefront photo (not full-bleed) */
 .hero {
-  background: var(--off);
+  background: var(--sand);
   border-bottom: 1px solid var(--border);
   overflow: hidden;
 }
@@ -400,7 +412,7 @@ a.btn-gold:hover,
 @media (min-width: 900px) {
   .hero-grid {
     grid-template-columns: 0.9fr 1.1fr;
-    align-items: center;
+    align-items: stretch;
     min-height: calc(100svh - var(--header-h));
     max-height: 52rem;
     gap: 0;
@@ -413,6 +425,7 @@ a.btn-gold:hover,
   flex-direction: column;
   justify-content: center;
   gap: 1.05rem;
+  background: var(--sand);
 }
 
 @media (min-width: 900px) {
@@ -420,25 +433,6 @@ a.btn-gold:hover,
     padding: clamp(2.75rem, 6vw, 4.75rem) 0 clamp(2.75rem, 6vw, 4.75rem) max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter)));
     padding-right: 2.75rem;
   }
-}
-
-.hero-brand {
-  margin: 0;
-  display: flex;
-  align-items: center;
-  gap: 0.55rem;
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  color: var(--forest);
-  line-height: 1;
-}
-
-.hero-brand img {
-  width: 2.15rem;
-  height: 2.15rem;
-  object-fit: contain;
-  flex-shrink: 0;
 }
 
 .hero-copy h1 {
@@ -513,8 +507,9 @@ a.btn-gold:hover,
   color: var(--white);
 }
 
-.section-white {
-  background: var(--white);
+.section-white,
+.section-cream {
+  background: var(--cream);
 }
 
 .section-sand {
@@ -571,7 +566,10 @@ a.btn-gold:hover,
 .steps {
   display: grid;
   gap: 0;
-  border-top: 1px solid var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--sand);
+  padding: 0 1.25rem;
 }
 
 .step {
@@ -579,6 +577,10 @@ a.btn-gold:hover,
   gap: 0.5rem;
   padding: 1.35rem 0;
   border-bottom: 1px solid var(--border);
+}
+
+.step:last-child {
+  border-bottom: 0;
 }
 
 @media (min-width: 720px) {
@@ -629,8 +631,11 @@ a.btn-gold:hover,
 }
 
 .prices {
+  border: 1px solid var(--border);
   border-top: 2px solid var(--forest);
-  background: var(--white);
+  background: var(--cream);
+  border-radius: var(--radius);
+  padding: 0 1.15rem;
 }
 
 .price-row {
@@ -640,6 +645,10 @@ a.btn-gold:hover,
   padding: 1.05rem 0;
   border-bottom: 1px solid var(--border);
   align-items: baseline;
+}
+
+.price-row:last-child {
+  border-bottom: 0;
 }
 
 .price-row h3 {
@@ -670,7 +679,7 @@ a.btn-gold:hover,
   font-size: clamp(2rem, 3.8vw, 2.65rem);
   font-weight: 800;
   letter-spacing: -0.045em;
-  color: var(--forest);
+  color: var(--gold-deep);
   font-variant-numeric: tabular-nums;
   font-feature-settings: "tnum" 1, "lnum" 1;
   line-height: 1;
@@ -757,14 +766,14 @@ a.btn-gold:hover,
 }
 
 .tech-list {
-  border-top: 2px solid var(--forest);
+  border-top: 2px solid var(--gold);
 }
 
 .tech-row {
   display: grid;
   gap: 0.35rem;
   padding: 1.45rem 0;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(247, 240, 230, 0.18);
 }
 
 @media (min-width: 720px) {
@@ -795,7 +804,7 @@ a.btn-gold:hover,
   font-size: 1.35rem;
   font-weight: 800;
   letter-spacing: -0.025em;
-  color: var(--forest);
+  color: var(--cream);
 }
 
 .tech-row .tech-meta {
@@ -804,12 +813,12 @@ a.btn-gold:hover,
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: uppercase;
-  color: var(--gold-deep);
+  color: var(--gold);
 }
 
 .tech-row p:not(.tech-meta) {
   margin: 0;
-  color: var(--muted);
+  color: rgba(247, 240, 230, 0.72);
   max-width: 48ch;
   font-size: 1.02rem;
 }
@@ -833,6 +842,10 @@ a.btn-gold:hover,
 .coach {
   display: grid;
   gap: 1.25rem;
+  padding: 1.15rem;
+  background: var(--cream);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
 }
 
 @media (min-width: 880px) {
@@ -840,6 +853,7 @@ a.btn-gold:hover,
     grid-template-columns: 1.05fr 1fr;
     gap: 2.75rem;
     align-items: center;
+    padding: 1.35rem;
   }
 
   .coach.reverse {
@@ -857,6 +871,7 @@ a.btn-gold:hover,
   border-radius: var(--radius);
   background: var(--sand);
   max-width: 28rem;
+  border: 1px solid var(--border);
 }
 
 .coach-photo img {
@@ -921,7 +936,7 @@ a.btn-gold:hover,
 
 .brands {
   margin: 0;
-  padding: 0;
+  padding: 1.15rem 1.25rem;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -931,6 +946,9 @@ a.btn-gold:hover,
   font-weight: 700;
   color: var(--forest);
   letter-spacing: -0.02em;
+  background: var(--sand);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
 }
 
 .brands li:not(:last-child)::after {
@@ -944,13 +962,13 @@ a.btn-gold:hover,
 .quotes {
   display: grid;
   gap: 0;
-  border-top: 1px solid var(--border);
+  border-top: 2px solid var(--gold);
 }
 
 .quote {
   margin: 0;
   padding: 1.35rem 0;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(247, 240, 230, 0.18);
   display: grid;
   gap: 0.75rem;
 }
@@ -967,17 +985,18 @@ a.btn-gold:hover,
   font-size: 1.05rem;
   line-height: 1.5;
   max-width: 58ch;
+  color: rgba(247, 240, 230, 0.92);
 }
 
 .quote footer {
   font-size: 0.85rem;
-  color: var(--muted);
+  color: rgba(247, 240, 230, 0.62);
   font-style: normal;
 }
 
 .quote footer strong {
   display: block;
-  color: var(--forest);
+  color: var(--gold);
   font-weight: 700;
 }
 
@@ -1017,7 +1036,10 @@ a.btn-gold:hover,
 }
 
 .visit-card {
-  padding: 0;
+  padding: 1.25rem 1.3rem;
+  background: var(--sand);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
 }
 
 .visit-card h3 {
