@@ -469,30 +469,36 @@ a.btn-gold:hover,
 }
 
 .hero-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem 0;
   margin: 0.2rem 0 0;
   font-size: 0.875rem;
   color: var(--muted);
   width: 100%;
 }
 
-/* Separator lives on the wrapped unit, so a new line never starts with a dangling · */
+/* Below 1024: stack address / hours / closed — no middots */
+.hero-meta > span {
+  display: block;
+}
+
 .hero-meta > span + span::before {
-  content: "·";
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
+  content: none;
 }
 
 @media (min-width: 1024px) {
   .hero-meta {
+    display: flex;
     flex-wrap: nowrap;
+    gap: 0.25rem 0;
     width: max-content;
     max-width: none;
   }
 
+  .hero-meta > span {
+    display: inline;
+  }
+
   .hero-meta > span + span::before {
+    content: "·";
     margin-right: 0.35rem;
     margin-left: 0.35rem;
   }
